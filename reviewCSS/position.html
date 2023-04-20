@@ -9,11 +9,35 @@
         html,body{
             margin:0;
         }
-        h1{
+        /* h1{
             position:relative;
             top:100px;
             left:100px;
+        } */
+        li:nth-of-type(2){
+            color:violet;
         }
+        .box{
+            width: 100%;
+            height: 120px;
+            background-color: #333;
+            position: relative;
+        }
+        .box-child{
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+            /* background-color: rgba(255,255,255,0.5); */
+            position: absolute;
+            /* take the parent attribute that have another position attribule is the parent attr */
+            /* top:10px;
+            bottom: 10px;
+            right: 10px;
+            left: 10px; */
+            top:0;
+            right:0;
+        }
+
     </style>
 </head>
 <body>
@@ -22,6 +46,9 @@
         <!-- change position of this item which doesn't affect other items -->
         <li>Relative</li>
         <li>Absolute</li>
+        <div class="box">Hello
+            <div class="box-child"></div>
+        </div>
         <li>Fixed</li>
         <li>Sticky</li>
     </ul>
