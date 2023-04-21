@@ -1,5 +1,7 @@
 /* the place to assign the variable */
 :root{
+    --primary-color: #ee4d2d;
+    --primary-color-rgba: rgba(238,75,43);
     --white-color: #fff;
     --black-color: #000;
     --text-color:#333;
