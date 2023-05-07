@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Zoom and pan image with canvas</title>
+    <style>
+      canvas {
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script>
+      const canvas = document.getElementById("canvas");
+      const ctx = canvas.getContext("2d");
+      const img = new Image();
+      img.src =
+        "https://hips.hearstapps.com/hmg-prod/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=1.00xw:0.756xh;0,0.0756xh&resize=1200:*";
+
+      let scale = 1;
+      let translateX = 0;
+      let translateY = 0;
+
+      const drawImage = () => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.save();
+        ctx.translate(translateX, translateY);
+        ctx.scale(scale, scale);
+        ctx.drawImage(img, 0, 0);
+        ctx.restore();
+      };
+
+      img.onload = () => {
+        canvas.width = img.width;
+        canvas.height = img.height;
+        drawImage();
+      };
+
+      canvas.addEventListener("wheel", (e) => {
+        e.preventDefault();
+        const delta = e.deltaY < 0 ? 0.1 : -0.1;
+        scale += delta;
+        drawImage();
+      });
+
+      canvas.addEventListener("mousedown", (e) => {
+        //take the position of the mouse
+        const startX = e.clientX; // on browser
+        const startY = e.clientY;
+
+        const mousemoveHandler = (e) => {
+          const dx = e.clientX - startX;
+          const dy = e.clientY - startY;
+          translateX += dx;
+          translateY += dy;
+          drawImage();
+          startX = e.clientX;
+          startY = e.clientY;
+        };
+
+        const mouseupHandler = () => {
+          canvas.removeEventListener("mousemove", mousemoveHandler);
+          canvas.removeEventListener("mouseup", mouseupHandler);
+        };
+
+        canvas.addEventListener("mousemove", mousemoveHandler);
+        canvas.addEventListener("mouseup", mouseupHandler);
+      });
+    </script>
+  </body>
+</html>
