@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Zoom and pan image with canvas</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .cover {
+        top: 100px;
+        left: 100px;
+        position: relative;
+      }
+      canvas {
+        border: 1px solid #000;
+        width: 800px;
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cover">
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <script>
+      const canvas = document.getElementById("canvas");
+      const ctx = canvas.getContext("2d");
+      let img = new Image();
+      img.src =
+        "https://hips.hearstapps.com/hmg-prod/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=1.00xw:0.756xh;0,0.0756xh&resize=1200:*";
+
+      let scale = 1;
+      let startX,
+        startY,
+        isDragging = false;
+
+      // Khởi tạo biến để lưu trữ tọa độ của con trỏ chuột
+      let lastX;
+      let lastY;
+
+      // Khởi tạo biến để lưu trữ kích thước ảnh và tỷ lệ zoom
+      let imgWidth;
+      let imgHeight;
+      let translateX = 0;
+      let translateY = 0;
+
+      const drawImage = () => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.save();
+        ctx.translate(translateX, translateY);
+        ctx.scale(scale, scale);
+        ctx.drawImage(img, translateX, translateY);
+        ctx.restore();
+      };
+
+      // Đợi cho ảnh được load
+      img.onload = function () {
+        // Lưu trữ kích thước ảnh
+        imgWidth = img.width;
+        imgHeight = img.height;
+        console.log(imgWidth);
+        console.log(imgHeight);
+        canvas.width = img.width;
+        canvas.height = img.height;
+
+        //Vẽ ảnh lên canvas với tỷ lệ zoom ban đầu là 1
+        //ctx.drawImage(img, 0, 0);
+        drawImage();
+      };
+      // Tạo biến để lưu trữ thông tin về zoom và vị trí của con trỏ chuột
+      let zoom = 1;
+      let mouseX = 0;
+      let mouseY = 0;
+
+      // Hàm xử lý sự kiện wheel
+      function handleWheel(e) {
+        // Lấy giá trị delta để xác định hướng phóng to hoặc thu nhỏ
+        const delta = e.deltaY || e.detail || e.wheelDelta;
+
+        // Tính toán zoom mới
+        if (delta < 0) {
+          zoom *= 1.1; // Phóng to
+        } else {
+          zoom /= 1.1; // Thu nhỏ
+        }
+
+        // Tính toán vị trí mới của con trỏ chuột
+        const canvasRect = canvas.getBoundingClientRect();
+        console.log(canvasRect);
+        const scaleX = canvas.width / canvasRect.width;
+        const scaleY = canvas.height / canvasRect.height;
+        mouseX = (e.clientX - canvasRect.left) * scaleX;
+        mouseY = (e.clientY - canvasRect.top) * scaleY;
+
+        // Vẽ lại ảnh với thông số mới
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.save();
+        ctx.translate(mouseX, mouseY);
+        ctx.scale(zoom, zoom);
+        ctx.translate(-mouseX, -mouseY);
+        ctx.drawImage(img, 0, 0);
+        ctx.restore();
+      }
+
+      //Gán sự kiện wheel cho canvas
+      canvas.addEventListener("wheel", handleWheel);
+
+      //   // Thêm sự kiện cho canvas
+      //   canvas.addEventListener("wheel", function (e) {
+      //     // Ngăn chặn sự kiện mặc định của trình duyệt khi cuộn chuột
+      //     e.preventDefault();
+
+      //     // Tính toán tỷ lệ zoom
+      //     const delta = Math.sign(e.deltaY);
+      //     scale += delta * 0.1;
+
+      //     // Lấy tọa độ con trỏ chuột trên canvas
+      //     const x = e.offsetX;
+      //     const y = e.offsetY;
+      //     // console.log("offSetX: ", e.offsetX);
+      //     // console.log("offSetY: ", e.offsetY);
+      //     // console.log("offClientX: ", e.clientX);
+      //     // console.log("offClientY: ", e.clientY);
+
+      //     // Tính toán khoảng cách di chuyển của ảnh
+      //     const dx = x - lastX;
+      //     const dy = y - lastY;
+      //     lastX = x;
+      //     lastY = y;
+
+      //     // Tính toán tọa độ của góc trên bên trái của ảnh
+      //     const left = -dx / scale;
+      //     const top = -dy / scale;
+
+      //     // Vẽ lại ảnh với các thông số đã tính toán
+      //     ctx.clearRect(0, 0, canvas.width, canvas.height);
+      //     ctx.drawImage(img, left, top, imgWidth / scale, imgHeight / scale);
+      //   });
+
+      // set initial scale value
+
+      // add keydown event listener to document
+      document.addEventListener("keydown", (e) => {
+        // check if "v" key is pressed
+        if (e.key === "v") {
+          // zoom in
+          scale *= 1.1;
+        }
+        // check if "c" key is pressed
+        else if (e.key === "c") {
+          // zoom out
+          scale /= 1.1;
+        }
+
+        // redraw image with new scale value
+        redrawImage();
+      });
+
+      // redraw image with current scale value
+      function redrawImage() {
+        // clear canvas
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // calculate translate values to keep image centered
+        const translateX = (canvas.width - img.width * scale) / 2;
+        const translateY = (canvas.height - img.height * scale) / 2;
+
+        // set transform values
+        ctx.translate(translateX, translateY);
+        ctx.scale(scale, scale);
+
+        // draw image
+        ctx.drawImage(img, 0, 0);
+      }
+
+      canvas.addEventListener("mousedown", function (e) {
+        // Lưu trữ tọa độ con trỏ chuột
+        startX = e.clientX;
+        startY = e.clientY;
+        isDragging = true;
+      });
+      canvas.addEventListener("mousemove", (e) => {
+        if (!isDragging) return;
+
+        const dx = e.clientX - startX;
+        const dy = e.clientY - startY;
+
+        // Vẽ lại ảnh với các thông số đã tính toán
+        const left = -dx / scale + startX;
+        const top = -dy / scale + startY;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, left, top, imgWidth / scale, imgHeight / scale);
+      });
+
+      canvas.addEventListener("mouseleave", function () {
+        isDragging = false;
+      });
+
+      canvas.addEventListener("mouseout", function () {
+        isDragging = false;
+      });
+    </script>
+  </body>
+</html>

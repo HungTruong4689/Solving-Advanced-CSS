@@ -14,11 +14,22 @@
     <script>
       const canvas = document.getElementById("canvas");
       const ctx = canvas.getContext("2d");
-      const img = new Image();
+      let img = new Image();
       img.src =
         "https://hips.hearstapps.com/hmg-prod/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=1.00xw:0.756xh;0,0.0756xh&resize=1200:*";
 
       let scale = 1;
+      let startX,
+        startY,
+        isDragging = false;
+
+      // Khởi tạo biến để lưu trữ tọa độ của con trỏ chuột
+      let lastX;
+      let lastY;
+
+      // Khởi tạo biến để lưu trữ kích thước ảnh và tỷ lệ zoom
+      let imgWidth;
+      let imgHeight;
       let translateX = 0;
       let translateY = 0;
 
@@ -27,45 +38,78 @@
         ctx.save();
         ctx.translate(translateX, translateY);
         ctx.scale(scale, scale);
-        ctx.drawImage(img, 0, 0);
+        ctx.drawImage(img, translateX, translateY);
         ctx.restore();
       };
 
-      img.onload = () => {
+      // Đợi cho ảnh được load
+      img.onload = function () {
+        // Lưu trữ kích thước ảnh
+        imgWidth = img.width;
+        imgHeight = img.height;
+        console.log(imgWidth);
+        console.log(imgHeight);
         canvas.width = img.width;
         canvas.height = img.height;
+
+        //Vẽ ảnh lên canvas với tỷ lệ zoom ban đầu là 1
+        //ctx.drawImage(img, 0, 0);
         drawImage();
       };
 
-      canvas.addEventListener("wheel", (e) => {
+      // Thêm sự kiện cho canvas
+      canvas.addEventListener("wheel", function (e) {
+        // Ngăn chặn sự kiện mặc định của trình duyệt khi cuộn chuột
         e.preventDefault();
-        const delta = e.deltaY < 0 ? 0.1 : -0.1;
-        scale += delta;
-        drawImage();
+
+        // Tính toán tỷ lệ zoom
+        const delta = Math.sign(e.deltaY);
+        scale += delta * 0.1;
+
+        // Lấy tọa độ con trỏ chuột trên canvas
+        const x = e.offsetX;
+        const y = e.offsetY;
+
+        // Tính toán khoảng cách di chuyển của ảnh
+        const dx = x - lastX;
+        const dy = y - lastY;
+        lastX = x;
+        lastY = y;
+
+        // Tính toán tọa độ của góc trên bên trái của ảnh
+        const left = -dx / scale;
+        const top = -dy / scale;
+
+        // Vẽ lại ảnh với các thông số đã tính toán
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, left, top, imgWidth / scale, imgHeight / scale);
       });
 
-      canvas.addEventListener("mousedown", (e) => {
-        //take the position of the mouse
-        const startX = e.clientX; // on browser
-        const startY = e.clientY;
+      canvas.addEventListener("mousedown", function (e) {
+        // Lưu trữ tọa độ con trỏ chuột
+        startX = e.clientX;
+        startY = e.clientY;
+        isDragging = true;
+      });
+      canvas.addEventListener("mousemove", (e) => {
+        if (!isDragging) return;
 
-        const mousemoveHandler = (e) => {
-          const dx = e.clientX - startX;
-          const dy = e.clientY - startY;
-          translateX += dx;
-          translateY += dy;
-          drawImage();
-          startX = e.clientX;
-          startY = e.clientY;
-        };
+        const dx = e.clientX - startX;
+        const dy = e.clientY - startY;
 
-        const mouseupHandler = () => {
-          canvas.removeEventListener("mousemove", mousemoveHandler);
-          canvas.removeEventListener("mouseup", mouseupHandler);
-        };
+        // Vẽ lại ảnh với các thông số đã tính toán
+        const left = -dx / scale + startX;
+        const top = -dy / scale + startY;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.drawImage(img, left, top, imgWidth / scale, imgHeight / scale);
+      });
 
-        canvas.addEventListener("mousemove", mousemoveHandler);
-        canvas.addEventListener("mouseup", mouseupHandler);
+      canvas.addEventListener("mouseleave", function () {
+        isDragging = false;
+      });
+
+      canvas.addEventListener("mouseout", function () {
+        isDragging = false;
       });
     </script>
   </body>

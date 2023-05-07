@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Zoom and pan image with Fabric.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.4.0/fabric.min.js"></script>
+    <style>
+      canvas {
+        border: 1px solid #000;
+        width: 800px;
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+
+    <script>
+      // Lấy đối tượng canvas
+      var canvas = new fabric.Canvas("canvas");
+
+      // Lấy ảnh từ URL và vẽ lên canvas
+      fabric.Image.fromURL(
+        "https://hips.hearstapps.com/hmg-prod/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=1.00xw:0.756xh;0,0.0756xh&resize=1200:*",
+        function (img) {
+          canvas.setBackgroundImage(img, canvas.renderAll.bind(canvas), {
+            scaleX: canvas.width / img.width,
+            scaleY: canvas.height / img.height,
+          });
+        }
+      );
+
+      // Tạo biến để lưu trữ giá trị zoom và vị trí chuột
+      var zoomLevel = 1;
+      var lastX, lastY;
+
+      // Thêm sự kiện mousewheel để zoom ảnh
+      canvas.on("mouse:wheel", function (opt) {
+        var delta = opt.e.deltaY;
+        var zoom = canvas.getZoom();
+        zoom = zoom + delta / 200;
+        if (zoom > 20) zoom = 20;
+        if (zoom < 0.01) zoom = 0.01;
+        canvas.zoomToPoint({ x: opt.e.offsetX, y: opt.e.offsetY }, zoom);
+        opt.e.preventDefault();
+        opt.e.stopPropagation();
+        zoomLevel = zoom;
+      });
+
+      // Thêm sự kiện mousemove để pan ảnh
+      canvas.on("mouse:move", function (event) {
+        if (lastX !== null && lastY !== null && event.e.buttons === 1) {
+          var deltaX = event.e.clientX - lastX;
+          var deltaY = event.e.clientY - lastY;
+          canvas.relativePan({ x: deltaX, y: deltaY });
+        }
+        lastX = event.e.clientX;
+        lastY = event.e.clientY;
+      });
+
+      // Thêm sự kiện keydown để sử dụng phím tắt v và c để zoom ảnh
+      document.addEventListener("keydown", function (event) {
+        if (event.code === "KeyV") {
+          zoomLevel += 0.1;
+          if (zoomLevel > 20) zoomLevel = 20;
+          canvas.zoomToPoint({ x: lastX, y: lastY }, zoomLevel);
+        } else if (event.code === "KeyC") {
+          zoomLevel -= 0.1;
+          if (zoomLevel < 0.01) zoomLevel = 0.01;
+          canvas.zoomToPoint({ x: lastX, y: lastY }, zoomLevel);
+        }
+      });
+    </script>
+  </body>
+</html>
