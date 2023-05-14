@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className="bg-green-600 text-white">
         Hello world!
       </h1>
-      <h1 className="bg-green-600 text-white">
+      <h1 className="bg-green-600 text-vuejs">
         Hello world!
       </h1>
     
