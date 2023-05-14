@@ -13,7 +13,10 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors:{
-        vuejs: "#49e659"
+        vuejs: {
+          100:"#49e659",
+          952:"#434252"
+        }
       }
     },
   },
