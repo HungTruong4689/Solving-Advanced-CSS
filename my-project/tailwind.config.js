@@ -22,11 +22,11 @@ module.exports = {
     //   '2xl': '1536px',
     //   // => @media (min-width: 1536px) { ... }
     // },
-    fontSize:{
-      xs: "12px",
-      sm:"15px",
-      base: "18px"
-    },
+    // fontSize:{
+    //   // xs: "12px",
+    //   // sm:"15px",
+    //   // base: "18px"
+    // },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
