@@ -10,7 +10,7 @@ export default function Home() {
      <p className='text-base underline decoration-red-500 decoration-wavy decoration-1 underline-offset-1 leading-normal'>A regular paragraph</p>
      <p className='test-sm uppercase'>A description paragraph</p>
      <p className='test-xs note lowercase'>A little node</p> */}
-     <p className=' p-4 font-bold text-white bg-red-500'>Hello</p>
+     <p className=' pl-4 font-bold text-white bg-red-500'>Hello</p>
     
     </div>
   )
