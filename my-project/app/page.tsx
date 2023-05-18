@@ -11,7 +11,7 @@ export default function Home() {
      <p className='test-sm uppercase'>A description paragraph</p>
      <p className='test-xs note lowercase'>A little node</p> */}
      <p className=' m-4 font-bold text-white bg-blue-500'>Box with margin</p>
-     <p className=' p-4 font-bold text-white bg-red-500'>Box with padding</p>
+     <p className=' -mt-8 font-bold text-white bg-red-500'>Box with padding</p>
     
     </div>
   )
