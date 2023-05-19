@@ -6,8 +6,14 @@ export default function Home() {
     <div className='Parent'>
       <div>Header</div>
       <div className="flex flex-col md:flex-row" >
-        <div className="w-full bg-sky-500 md:w-32">Sidebar</div>
-        <div className='w-full bg-red-600'>Main content</div>
+        <div className="flex w-full flex-nowrap">
+          <div className='w-full grow'>01</div>
+          <div className='w-full grow'>02</div>
+          <div className='w-full grow'>03</div>
+          <div className='w-full grow'>04</div>
+          <div className='w-full grow'>05</div>
+        </div>
+        
       </div>
       
     </div>
