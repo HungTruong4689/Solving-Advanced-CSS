@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className='Parent'>
       <div>Header</div>
-      <div className="flex flex-row" >
-        <div className="w-32 bg-sky-500">Sidebar</div>
+      <div className="flex flex-col md:flex-row" >
+        <div className="w-full bg-sky-500 md:w-32">Sidebar</div>
         <div className='w-full bg-red-600'>Main content</div>
       </div>
       
