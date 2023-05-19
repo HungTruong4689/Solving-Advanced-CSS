@@ -6,7 +6,7 @@ export default function Home() {
     <div className='Parent'>
       <div>Header</div>
       
-        <div className="flex justify-end">
+        <div className="flex items-center">
           <div>Sidebar</div>
           <div>Main content</div>
         </div>
