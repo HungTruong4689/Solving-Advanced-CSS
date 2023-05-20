@@ -3,14 +3,15 @@ import Image from 'next/image'
 export default function Home() {
   console.log("test")
   return (
-    <div className='Parent'>
-      <div>Header</div>
-      
-        <div className="flex items-baseline">
-          <div className="pt-2 pb-6 bg-sky-500">01</div>
-          <div className="pt-8 pb-12 bg-red-500">02</div>
-          <div className="pt-12 pb-4 bg-green-500">03</div>
+    <div className='h-screen text-white Parent bg-slate-900'>
+      <div className="container mx-auto">
+        <div className="grid grid-cols-4 gap-1">
+          <div className="bg-sky-500 p-6 rounded-lg">First element</div>
+          <div className="bg-sky-500 p-6 rounded-lg">Second element</div>
+          <div className="bg-sky-500 p-6 rounded-lg">Third element</div>
+          <div className="bg-sky-500 p-6 rounded-lg">Forth element</div>
         </div>
+      </div>
         
      
       
