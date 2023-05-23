@@ -5,6 +5,10 @@ export default function Home() {
     return (
         <div className="h-screen p-4 Parent">
             <div className="inline-block p-4 text-black bg-white border rounded-lg ">
+                <img
+                    src="https://wallpaperaccess.com/full/1540354.jpg"
+                    className="w-64 mb-4 blur-sm"
+                />
                 <h1 className="text-2xl">Hello</h1>
                 <p className="mb-4">This is my div</p>
                 <button className="px-3 py-2 rounded-lg cursor-pointer bg-cyan-500 shadow-md shadow-cyan-500/50">
