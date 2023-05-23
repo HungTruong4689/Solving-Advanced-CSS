@@ -3,16 +3,14 @@ import Image from 'next/image'
 export default function Home() {
     console.log('test')
     return (
-        <div className="">
-            <button className="outline outline-offset-2 outline-1 ...">
-                Button A
-            </button>
-            <button className="outline outline-offset-2 outline-2 ...">
-                Button B
-            </button>
-            <button className="outline outline-offset-2 outline-4 ...">
-                Button C
-            </button>
+        <div className="h-screen p-4 Parent">
+            <div className="inline-block p-4 text-black bg-white border rounded-lg shadow-md shadow-cyan-500">
+                <h1 className="text-2xl">Hello</h1>
+                <p className="mb-4">This is my div</p>
+                <button className="px-3 py-2 rounded-lg cursor-pointer bg-cyan-500">
+                    Say Hello
+                </button>
+            </div>
         </div>
     )
 }
