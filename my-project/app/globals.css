@@ -4,15 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
-
-
-@layer base{
-  html{
-    @apply text-black;
-    font-family: 'Inter',sans-serif;
-  }
+@layer base {
+    html {
+        color: red;
+    }
 }
