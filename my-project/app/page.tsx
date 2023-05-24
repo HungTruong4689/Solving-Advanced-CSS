@@ -7,7 +7,7 @@ export default function Home() {
             <div className="inline-block p-4 text-black bg-white border rounded-lg ">
                 <img
                     src="https://wallpaperaccess.com/full/1540354.jpg"
-                    className="w-64 mb-4 invert"
+                    className="w-64 mb-4 invert -skew-y-12"
                 />
                 <h1 className="text-2xl">Hello</h1>
                 <p className="mb-4">This is my div</p>
