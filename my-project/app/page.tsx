@@ -5,8 +5,8 @@ export default function Home() {
     return (
         <div className="h-screen p-4 Parent">
             <h1 className="text-3xl font-bold">This is the title</h1>
-            <h2>This is subtitle</h2>
-            <p>This is paragraph</p>
+            <h2 className="text-xl font-semibold">This is subtitle</h2>
+            <p className="text-base">This is paragraph</p>
             <a href="">This is an anchor</a>
             <div className="">
                 <button>This is a button</button>
