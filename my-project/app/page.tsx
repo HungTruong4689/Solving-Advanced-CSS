@@ -25,10 +25,7 @@ export default function Home() {
                 </select>
             </div>
             <div className="">
-                <div className="blur-none ..."></div>
-                <div className="blur-sm ..."></div>
-                <div className="blur-lg ..."></div>
-                <div className="blur-2xl ..."></div>
+                <div className="contrast-125 hover:contrast-150">Constrast</div>
             </div>
         </div>
     )
