@@ -40,7 +40,9 @@ export default function Home() {
                         </td>
                     </tr>
                     <tr>
-                        <td className="border border-slate-700 ...">Ohio</td>
+                        <td className="border rounded-md border-slate-700 ...">
+                            Ohio
+                        </td>
                         <td className="border border-slate-700 ...">
                             Columbus
                         </td>
