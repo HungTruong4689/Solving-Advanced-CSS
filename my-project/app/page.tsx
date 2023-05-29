@@ -43,7 +43,7 @@ export default function Home() {
                         <td className="border rounded-md border-slate-700 ...">
                             Ohio
                         </td>
-                        <td className="border border-slate-700 ...">
+                        <td className="border flex focus-visible:bg-gray-300 border-slate-700 ...">
                             Columbus
                         </td>
                     </tr>
