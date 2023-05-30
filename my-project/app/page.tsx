@@ -32,6 +32,7 @@ export default function Home() {
                         <th className="border border-slate-600 ...">City</th>
                     </tr>
                 </thead>
+                <div class="overflow-hidden ..."></div>
                 <tbody>
                     <tr>
                         <td className="border border-slate-700 ...">Indiana</td>
