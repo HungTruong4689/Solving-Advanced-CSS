@@ -34,6 +34,7 @@ export default function Home() {
                 </thead>
                 <div class="overflow-hidden ..."></div>
                 <div class="overflow-auto ..."></div>
+                <div class="overflow-x-auto ..."></div>
                 <tbody>
                     <tr>
                         <td className="border border-slate-700 ...">Indiana</td>
