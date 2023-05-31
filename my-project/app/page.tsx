@@ -32,21 +32,11 @@ export default function Home() {
                         <th className="border border-slate-600 ...">City</th>
                     </tr>
                 </thead>
-                <div className="static ...">
-                    <div className="static ...">
-                        <p>Static child</p>
-                    </div>
-                    <div className="inline-block ...">
-                        <p>Static sibling</p>
-                    </div>
-
-                    <div className="absolute ...">
-                        <p>Absolute child</p>
-                    </div>
-                    <div className="inline-block ...">
-                        <p>Static sibling</p>
-                    </div>
-                </div>
+                <div className="z-40 ...">05</div>
+                <div className="z-30 ...">04</div>
+                <div className="z-20 ...">03</div>
+                <div className="z-10 ...">02</div>
+                <div className="z-0 ...">01</div>
                 <tbody>
                     <tr>
                         <td className="border border-slate-700 ...">Indiana</td>
