@@ -33,9 +33,9 @@ export default function Home() {
                     </tr>
                 </thead>
                 <div className="flex ...">
-                    <div className="flex-none w-14 h-14 ...">01</div>
-                    <div className="grow h-14 ...">02</div>
-                    <div className="flex-none w-14 h-14 ...">03</div>
+                    <div className="flex-1 h-16 ...">01</div>
+                    <div className="shrink-0 h-16 w-32 ...">02</div>
+                    <div className="flex-1 h-16 ...">03</div>
                 </div>
                 <tbody>
                     <tr>
