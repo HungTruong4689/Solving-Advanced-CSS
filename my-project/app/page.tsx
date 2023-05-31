@@ -32,10 +32,12 @@ export default function Home() {
                         <th className="border border-slate-600 ...">City</th>
                     </tr>
                 </thead>
-                <div class="overflow-hidden ..."></div>
-                <div class="overflow-auto ..."></div>
-                <div class="overflow-x-auto ..."></div>
-                <div class="overflow-y-auto h-32 ..."></div>
+                <div className="static ...">
+                    <p>Static parent</p>
+                    <div className="absolute bottom-0 left-0 ...">
+                        <p>Absolute child</p>
+                    </div>
+                </div>
                 <tbody>
                     <tr>
                         <td className="border border-slate-700 ...">Indiana</td>
