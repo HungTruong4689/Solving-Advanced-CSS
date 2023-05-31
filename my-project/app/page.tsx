@@ -33,9 +33,18 @@ export default function Home() {
                     </tr>
                 </thead>
                 <div className="static ...">
-                    <p>Static parent</p>
-                    <div className="absolute bottom-0 left-0 ...">
+                    <div className="static ...">
+                        <p>Static child</p>
+                    </div>
+                    <div className="inline-block ...">
+                        <p>Static sibling</p>
+                    </div>
+
+                    <div className="absolute ...">
                         <p>Absolute child</p>
+                    </div>
+                    <div className="inline-block ...">
+                        <p>Static sibling</p>
                     </div>
                 </div>
                 <tbody>
