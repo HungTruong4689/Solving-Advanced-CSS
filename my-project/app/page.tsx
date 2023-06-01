@@ -37,6 +37,11 @@ export default function Home() {
                     <div className="shrink-0 h-16 w-32 ...">02</div>
                     <div className="flex-1 h-16 ...">03</div>
                 </div>
+                <div className="grid grid-cols-4 gap-4">
+                    <div>01</div>
+
+                    <div>09</div>
+                </div>
                 <tbody>
                     <tr>
                         <td className="border border-slate-700 ...">Indiana</td>
