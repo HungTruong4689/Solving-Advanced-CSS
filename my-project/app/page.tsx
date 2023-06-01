@@ -42,6 +42,9 @@ export default function Home() {
 
                     <div>09</div>
                 </div>
+                <div className="grid grid-cols-1 hover:grid-cols-6">
+                    Check grid-cols-2
+                </div>
                 <tbody>
                     <tr>
                         <td className="border border-slate-700 ...">Indiana</td>
