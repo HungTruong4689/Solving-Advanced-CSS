@@ -24,6 +24,15 @@ export default function Home() {
                     <option value="">Option 2</option>
                 </select>
             </div>
+            <div className="grid grid-cols-3 gap-4">
+                <div className="...">01</div>
+                <div className="...">02</div>
+                <div className="...">03</div>
+                <div className="col-span-2 ...">04</div>
+                <div className="...">05</div>
+                <div className="...">06</div>
+                <div className="col-span-2 ...">07</div>
+            </div>
 
             <table className="border-collapse border border-slate-500 ...">
                 <thead>
