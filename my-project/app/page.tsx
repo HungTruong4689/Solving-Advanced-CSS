@@ -14,8 +14,22 @@ export default function Home() {
                 <p>Maybe we can live without...</p>
                 <p>Look. If you think this is...</p>
             </div>
+            <div>
+                When controlling the flow of text, using the CSS property
+                <span className="inline">display: inline</span>
+                will cause the text inside the element to wrap normally. While
+                using the property{' '}
+                <span className="inline-block">display: inline-block</span>
+                will wrap the element to prevent the text inside from extending
+                beyond its parent. Lastly, using the property{' '}
+                <span className="block">display: block</span>
+                will put the element on its own line and fill its parent.
+            </div>
             <div className="box-border h-32 w-32 p-4 border-4 ...">
                 Box Sizing
+            </div>
+            <div className="box-content h-32 w-32 p-4 border-4 ...">
+                Box Content
             </div>
             <div className="columns-2">
                 <p>Well, let me tell you something, ...</p>
