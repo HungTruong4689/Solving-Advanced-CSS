@@ -8,6 +8,12 @@ export default function Home() {
             <h2 className="text-xl ">This is subtitle</h2>
             <p className="text-base">This is paragraph</p>
             <a href="">This is an anchor</a>
+            <div className="columns-2">
+                <p>Well, let me tell you something, ...</p>
+                <p className="break-after-column">Sure, go ahead, laugh...</p>
+                <p>Maybe we can live without...</p>
+                <p>Look. If you think this is...</p>
+            </div>
             <div className="">
                 <button>This is a button</button>
             </div>
