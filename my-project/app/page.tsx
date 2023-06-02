@@ -14,6 +14,30 @@ export default function Home() {
                 <p>Maybe we can live without...</p>
                 <p>Look. If you think this is...</p>
             </div>
+            <div className="p-4">
+                <div className="flow-root ...">
+                    <div className="my-4 ...">
+                        Well, let me tell you something, ...
+                    </div>
+                </div>
+                <div className="flow-root ...">
+                    <div className="my-4 ...">
+                        Sure, go ahead, laugh if you want...
+                    </div>
+                </div>
+            </div>
+            <div className="p-4">
+                <div className="flow-root ...">
+                    <div className="my-4 ...">
+                        Well, let me tell you something, ...
+                    </div>
+                </div>
+                <div className="flow-root ...">
+                    <div className="my-4 ...">
+                        Sure, go ahead, laugh if you want...
+                    </div>
+                </div>
+            </div>
             <div>
                 When controlling the flow of text, using the CSS property
                 <span className="inline">display: inline</span>
