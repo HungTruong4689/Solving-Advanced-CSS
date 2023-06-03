@@ -14,6 +14,9 @@ export default function Home() {
                 <p>Maybe we can live without...</p>
                 <p>Look. If you think this is...</p>
             </div>
+            <div className="grid gap-4 grid-cols-3 grid-rows-3">
+                check the grid version
+            </div>
             <p>
                 Today I spent most of the day researching ways to ...
                 <span className="inline-flex items-baseline">
