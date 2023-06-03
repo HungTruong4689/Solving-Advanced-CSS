@@ -14,6 +14,18 @@ export default function Home() {
                 <p>Maybe we can live without...</p>
                 <p>Look. If you think this is...</p>
             </div>
+            <p>
+                Today I spent most of the day researching ways to ...
+                <span className="inline-flex items-baseline">
+                    <img
+                        src="path/to/image.jpg"
+                        alt=""
+                        className="self-center w-5 h-5 rounded-full mx-1"
+                    />
+                    <span>Kramer</span>
+                </span>
+                keeps telling me there is no way to make it work, that ...
+            </p>
             <div className="p-4">
                 <div className="flow-root ...">
                     <div className="my-4 ...">
