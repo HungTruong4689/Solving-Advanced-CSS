@@ -17,6 +17,14 @@ export default function Home() {
             <div className="grid gap-4 grid-cols-3 grid-rows-3">
                 check the grid version
             </div>
+            <div className="flex ...">
+                <div className="flex-1 ...">01</div>
+                <div className="contents">
+                    <div className="flex-1 ...">02</div>
+                    <div className="flex-1 ...">03</div>
+                </div>
+                <div className="flex-1 ...">04</div>
+            </div>
             <span className="inline-grid grid-cols-3 gap-4">
                 <span>01</span>
                 <span>02</span>
