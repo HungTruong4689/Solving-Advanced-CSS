@@ -157,6 +157,11 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div className="flex ...">
+                <div className="hidden ...">01</div>
+                <div>02</div>
+                <div>03</div>
+            </div>
 
             <table className="border-collapse border border-slate-500 ...">
                 <thead>
