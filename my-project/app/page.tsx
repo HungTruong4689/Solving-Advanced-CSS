@@ -157,6 +157,10 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <img className="float-right ..." src="path/to/image.jpg" />
+            <p>
+                Maybe we can live without libraries, people like you and me. ...
+            </p>
             <div className="flex ...">
                 <div className="hidden ...">01</div>
                 <div>02</div>
