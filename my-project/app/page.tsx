@@ -161,6 +161,9 @@ export default function Home() {
             <div className="bg-indigo-300 ...">
                 <img className="object-cover h-48 w-96 ..." />
             </div>
+            <div className="bg-purple-300 ...">
+                <img className="object-contain h-48 w-96 ..." />
+            </div>
             <p>
                 Maybe we can live without libraries, people like you and me. ...
             </p>
