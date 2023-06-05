@@ -158,6 +158,9 @@ export default function Home() {
                 </div>
             </div>
             <img className="float-right ..." src="path/to/image.jpg" />
+            <div className="bg-indigo-300 ...">
+                <img className="object-cover h-48 w-96 ..." />
+            </div>
             <p>
                 Maybe we can live without libraries, people like you and me. ...
             </p>
