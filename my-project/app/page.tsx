@@ -171,6 +171,10 @@ export default function Home() {
                 className="object-none object-left-top bg-yellow-300 w-24 h-24 ..."
                 src="..."
             ></img>
+            <img
+                className="object-none object-top bg-yellow-300 w-24 h-24 ..."
+                src="..."
+            ></img>
             <div className="bg-cyan-300">
                 <img className="object-scale-down h-48 w-96 ..." />
             </div>
