@@ -159,6 +159,9 @@ export default function Home() {
             </div>
             <div className="overflow-y-scroll ..."></div>
             <div className="overflow-scroll ...">overflow scroll</div>
+            <div className="overscroll-contain ...">
+                Well, let me tell you something, ...
+            </div>
             <img className="float-right ..." src="path/to/image.jpg" />
             <div className="bg-indigo-300 ...">
                 <img className="object-cover h-48 w-96 ..." />
