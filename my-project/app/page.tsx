@@ -184,8 +184,13 @@ export default function Home() {
                     <p>Static sibling</p>
                 </div>
             </div>
+            <div className="flex flex-row">
+                <div className="basis-1/4">01</div>
+                <div className="basis-1/4">02</div>
+                <div className="basis-1/2">03</div>
+            </div>
             <div className="relative">
-                <div classNames="fixed top-0 left-0 right-0">Contacts</div>
+                <div className="fixed top-0 left-0 right-0">Contacts</div>
                 <div>
                     <div>
                         <img src="..." />
