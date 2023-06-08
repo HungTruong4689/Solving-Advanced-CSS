@@ -215,6 +215,11 @@ export default function Home() {
                 <div>03</div>
             </div>
             <div className="flex ...">
+                <div className="flex-1 h-16 ...">01</div>
+                <div className="shrink-0 h-16 w-32 ...">02</div>
+                <div className="flex-1 h-16 ...">03</div>
+            </div>
+            <div className="flex ...">
                 <div className="flex-none w-14 h-14 ...">01</div>
                 <div className="shrink w-64 h-14 ...">02</div>
                 <div className="flex-none w-14 h-14 ...">03</div>
