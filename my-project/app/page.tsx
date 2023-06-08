@@ -214,6 +214,11 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
+            <div className="flex justify-between ...">
+                <div className="order-last">01</div>
+                <div>02</div>
+                <div>03</div>
+            </div>
             <div className="flex ...">
                 <div className="flex-1 h-16 ...">01</div>
                 <div className="shrink-0 h-16 w-32 ...">02</div>
