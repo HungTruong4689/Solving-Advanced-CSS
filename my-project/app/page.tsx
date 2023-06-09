@@ -226,6 +226,11 @@ export default function Home() {
                 <div>04</div>
                 <div>05</div>
             </div>
+            <div className="grid grid-flow-row auto-rows-max">
+                <div>01</div>
+                <div>02</div>
+                <div>03</div>
+            </div>
             <div className="grid grid-flow-col auto-cols-max">
                 <div>01</div>
                 <div>02</div>
