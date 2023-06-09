@@ -233,7 +233,14 @@ export default function Home() {
                 <div>04</div>
                 <div>05</div>
             </div>
-            <div className="h-56 grid grid-cols-3 gap-4 content-start ...">
+            <div className="h-56 grid grid-cols-3 gap-4 content-center ...">
+                <div>01</div>
+                <div>02</div>
+                <div>03</div>
+                <div>04</div>
+                <div>05</div>
+            </div>
+            <div className="h-56 grid grid-cols-3 gap-4 content-end ...">
                 <div>01</div>
                 <div>02</div>
                 <div>03</div>
