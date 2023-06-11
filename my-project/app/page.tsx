@@ -387,6 +387,11 @@ export default function Home() {
                 <div className="self-center ...">02</div>
                 <div>03</div>
             </div>
+            <div className="flex items-stretch ...">
+                <div>01</div>
+                <div className="self-end ...">02</div>
+                <div>03</div>
+            </div>
             <div className="flex ...">
                 <div className="flex-1 h-16 ...">01</div>
                 <div className="shrink-0 h-16 w-32 ...">02</div>
