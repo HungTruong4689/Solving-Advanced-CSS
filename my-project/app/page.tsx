@@ -347,6 +347,11 @@ export default function Home() {
                 <div className="py-12">02</div>
                 <div className="py-8">03</div>
             </div>
+            <div className="flex items-start ...">
+                <div className="py-4">01</div>
+                <div className="py-12">02</div>
+                <div className="py-8">03</div>
+            </div>
             <div className="flex justify-between ...">
                 <div className="order-last">01</div>
                 <div>02</div>
