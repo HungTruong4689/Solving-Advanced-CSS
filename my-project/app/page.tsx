@@ -496,6 +496,14 @@ export default function Home() {
                 <div>05</div>
                 <div>06</div>
             </div>
+            <div className="grid grid-cols-3 gap-4 ...">
+                <div>01</div>
+                <div className="place-self-auto ...">02</div>
+                <div>03</div>
+                <div>04</div>
+                <div>05</div>
+                <div>06</div>
+            </div>
             <div className="relative">
                 <div className="fixed top-0 left-0 right-0">Contacts</div>
                 <div>
