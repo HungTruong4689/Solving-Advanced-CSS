@@ -440,6 +440,12 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
+            <div className="grid grid-cols-2 gap-4 place-content-between h-48 ...">
+                <div>01</div>
+                <div>02</div>
+                <div>03</div>
+                <div>04</div>
+            </div>
             <div className="relative">
                 <div className="fixed top-0 left-0 right-0">Contacts</div>
                 <div>
