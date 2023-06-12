@@ -412,6 +412,12 @@ export default function Home() {
                 <div className="grow h-14 ...">02</div>
                 <div className="flex-none w-14 h-14 ...">03</div>
             </div>
+            <div className="grid grid-cols-2 gap-4 place-content-center h-48 ...">
+                <div>01</div>
+                <div>02</div>
+                <div>03</div>
+                <div>04</div>
+            </div>
             <div className="flex flex-wrap-reverse">
                 <div>01</div>
                 <div>02</div>
