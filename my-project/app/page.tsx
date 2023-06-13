@@ -552,6 +552,30 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div>
+                <div>
+                    <div className="sticky top-0 ...">A</div>
+                    <div>
+                        <div>
+                            <img src="..." />
+                            <strong>Andrew Alfred</strong>
+                        </div>
+                        <div>
+                            <img src="..." />
+                            <strong>Aisha Houston</strong>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="sticky top-0">B</div>
+                    <div>
+                        <div>
+                            <img src="..." />
+                            <strong>Bob Alfred</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="relative">
                 <div className="fixed top-0 left-0 right-0">Contacts</div>
                 <div>
