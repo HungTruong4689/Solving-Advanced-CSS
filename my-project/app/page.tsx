@@ -552,6 +552,19 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div className="relative">
+                <div className="fixed top-0 left-0 right-0">Contacts</div>
+                <div>
+                    <div>
+                        <img src="..." />
+                        <strong>Andrew Alfred</strong>
+                    </div>
+                    <div>
+                        <img src="..." />
+                        <strong>Debra Houston</strong>
+                    </div>
+                </div>
+            </div>
             <div className="static ...">
                 <p>Static parent</p>
                 <div className="absolute bottom-0 left-0 ...">
