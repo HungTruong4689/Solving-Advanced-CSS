@@ -512,6 +512,12 @@ export default function Home() {
                 <div>05</div>
                 <div>06</div>
             </div>
+            <div className="static ...">
+                <p>Static parent</p>
+                <div className="absolute bottom-0 left-0 ...">
+                    <p>Absolute child</p>
+                </div>
+            </div>
             <div className="relative">
                 <div className="fixed top-0 left-0 right-0">Contacts</div>
                 <div>
