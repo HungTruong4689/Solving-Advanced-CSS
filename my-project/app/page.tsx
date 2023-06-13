@@ -518,6 +518,21 @@ export default function Home() {
                     <p>Absolute child</p>
                 </div>
             </div>
+            <div className="static ...">
+                <div className="static ...">
+                    <p>Static child</p>
+                </div>
+                <div className="inline-block ...">
+                    <p>Static sibling</p>
+                </div>
+
+                <div className="absolute ...">
+                    <p>Absolute child</p>
+                </div>
+                <div className="inline-block ...">
+                    <p>Static sibling</p>
+                </div>
+            </div>
             <div className="relative ...">
                 <p>Relative parent</p>
                 <div className="absolute bottom-0 left-0 ...">
