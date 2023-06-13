@@ -588,6 +588,9 @@ export default function Home() {
             <div className="relative h-32 w-32 ...">
                 <div className="absolute inset-y-0 left-0 w-16 ...">04</div>
             </div>
+            <div className="relative h-32 w-32 ...">
+                <div className="absolute inset-0 ...">05</div>
+            </div>
             <div className="relative">
                 <div className="fixed top-0 left-0 right-0">Contacts</div>
                 <div>
