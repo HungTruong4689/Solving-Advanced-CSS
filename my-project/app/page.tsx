@@ -515,6 +515,7 @@ export default function Home() {
             <p className="text-base ...">The quick brown fox ...</p>
             <p className="text-lg ...">The quick brown fox ...</p>
             <p className="text-xl ...">The quick brown fox ...</p>
+            <p className="text-2xl ...">The quick brown fox ...</p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <div>01</div>
                 <div className="place-self-auto ...">02</div>
