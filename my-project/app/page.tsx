@@ -509,6 +509,7 @@ export default function Home() {
                 So I started to walk into the water...
             </p>
             <p className="font-sans ...">The quick brown fox ...</p>
+            <p className="font-serif ...">The quick brown fox ...</p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <div>01</div>
                 <div className="place-self-auto ...">02</div>
