@@ -508,6 +508,7 @@ export default function Home() {
             <p className="text-justify ...">
                 So I started to walk into the water...
             </p>
+            <p className="font-mono ...">The quick brown fox ...</p>
             <p className="font-sans ...">The quick brown fox ...</p>
             <p className="font-serif ...">The quick brown fox ...</p>
             <div className="grid grid-cols-3 gap-4 ...">
