@@ -527,6 +527,7 @@ export default function Home() {
             </p>
             <p className="text-sm/[17px] ..."></p>
             <p className="subpixel-antialiased ...">The quick brown fox ...</p>
+            <p className="antialiased ...">The quick brown fox ...</p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <div>01</div>
                 <div className="place-self-auto ...">02</div>
