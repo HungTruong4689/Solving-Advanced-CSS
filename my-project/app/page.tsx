@@ -533,6 +533,7 @@ export default function Home() {
             <p className="font-light ...">The quick brown fox ...</p>
             <p className="font-normal ...">The quick brown fox ...</p>
             <p className="font-medium ...">The quick brown fox ...</p>
+            <p className="font-semibold ...">The quick brown fox ...</p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <div>01</div>
                 <div className="place-self-auto ...">02</div>
