@@ -519,6 +519,9 @@ export default function Home() {
             <p className="text-base/6 ...">
                 So I started to walk into the water...
             </p>
+            <p className="text-base/7 ...">
+                So I started to walk into the water...
+            </p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <div>01</div>
                 <div className="place-self-auto ...">02</div>
