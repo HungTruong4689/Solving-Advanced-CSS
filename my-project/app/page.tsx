@@ -525,6 +525,7 @@ export default function Home() {
             <p className="text-base/loose ...">
                 So I started to walk into the water...
             </p>
+            <p className="not-italic ...">The quick brown fox ...</p>
             <p className="text-sm/[17px] ..."></p>
             <p className="subpixel-antialiased ...">The quick brown fox ...</p>
             <p className="antialiased ...">The quick brown fox ...</p>
