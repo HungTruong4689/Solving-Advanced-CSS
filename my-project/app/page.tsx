@@ -542,6 +542,7 @@ export default function Home() {
             <p className="oldstyle-nums ...">1234567890</p>
             <p className="proportional-nums ...">12121</p>
             <p className="tabular-nums ...">12121</p>
+            <p className="diagonal-fractions ...">1/2 3/4 5/6</p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <div>01</div>
                 <div className="place-self-auto ...">02</div>
