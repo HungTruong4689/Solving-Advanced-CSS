@@ -547,6 +547,7 @@ export default function Home() {
             <p className="slashed-zero tabular-nums md:normal-nums ...">
                 12345
             </p>
+            <p className="tracking-normal ...">The quick brown fox ...</p>
             <p className="tracking-tight ...">The quick brown fox ...</p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <div>01</div>
