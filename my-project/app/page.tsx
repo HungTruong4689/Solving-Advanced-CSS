@@ -544,6 +544,9 @@ export default function Home() {
             <p className="tabular-nums ...">12121</p>
             <p className="diagonal-fractions ...">1/2 3/4 5/6</p>
             <p className="stacked-fractions ...">1/2 3/4 5/6</p>
+            <p className="slashed-zero tabular-nums md:normal-nums ...">
+                12345
+            </p>
 
             <div className="grid grid-cols-3 gap-4 ...">
                 <div>01</div>
