@@ -591,6 +591,9 @@ export default function Home() {
             <p className="leading-relaxed ...">
                 So I started to walk into the water...
             </p>
+            <p className="leading-loose ...">
+                So I started to walk into the water...
+            </p>
             <div className="static ...">
                 <p>Static parent</p>
                 <div className="absolute bottom-0 left-0 ...">
