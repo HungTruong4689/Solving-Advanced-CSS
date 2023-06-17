@@ -606,6 +606,9 @@ export default function Home() {
             <p className="leading-7 ...">
                 So I started to walk into the water...
             </p>
+            <p className="leading-8 ...">
+                So I started to walk into the water...
+            </p>
             <div className="static ...">
                 <div className="static ...">
                     <p>Static child</p>
