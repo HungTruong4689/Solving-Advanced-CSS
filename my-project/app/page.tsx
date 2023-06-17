@@ -549,6 +549,7 @@ export default function Home() {
             </p>
             <p className="tracking-normal ...">The quick brown fox ...</p>
             <p className="tracking-tight ...">The quick brown fox ...</p>
+            <p className="tracking-wide ...">The quick brown fox ...</p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <div>01</div>
                 <div className="place-self-auto ...">02</div>
