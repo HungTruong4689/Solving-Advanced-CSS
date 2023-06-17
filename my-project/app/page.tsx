@@ -551,6 +551,25 @@ export default function Home() {
             <p className="tracking-tight ...">The quick brown fox ...</p>
             <p className="tracking-wide ...">The quick brown fox ...</p>
             <div className="grid grid-cols-3 gap-4 ...">
+                <article>
+                    <time>Mar 10, 2020</time>
+                    <h2>Boost your conversion rate</h2>
+                    <p className="line-clamp-3">
+                        Nulla dolor velit adipisicing duis excepteur esse in
+                        duis nostrud occaecat mollit incididunt deserunt sunt.
+                        Ut ut sunt laborum ex occaecat eu tempor labore enim
+                        adipisicing minim ad. Est in quis eu dolore occaecat
+                        excepteur fugiat dolore nisi aliqua fugiat enim ut
+                        cillum. Labore enim duis nostrud eu. Est ut eiusmod
+                        consequat irure quis deserunt ex. Enim laboris dolor
+                        magna pariatur. Dolor et ad sint voluptate sunt elit
+                        mollit officia ad enim sit consectetur enim.
+                    </p>
+                    <div>
+                        <img src="..." />
+                        Lindsay Walton
+                    </div>
+                </article>
                 <div>01</div>
                 <div className="place-self-auto ...">02</div>
                 <div>03</div>
