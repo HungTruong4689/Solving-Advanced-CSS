@@ -600,6 +600,12 @@ export default function Home() {
                     <p>Absolute child</p>
                 </div>
             </div>
+            <p className="leading-6 ...">
+                So I started to walk into the water...
+            </p>
+            <p className="leading-7 ...">
+                So I started to walk into the water...
+            </p>
             <div className="static ...">
                 <div className="static ...">
                     <p>Static child</p>
