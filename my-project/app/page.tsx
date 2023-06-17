@@ -577,6 +577,9 @@ export default function Home() {
                 <div>05</div>
                 <div>06</div>
             </div>
+            <p className="leading-normal ...">
+                So I started to walk into the water...
+            </p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <div>01</div>
                 <div className="place-self-start ...">02</div>
