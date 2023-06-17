@@ -588,6 +588,9 @@ export default function Home() {
                 <div>05</div>
                 <div>06</div>
             </div>
+            <p className="leading-relaxed ...">
+                So I started to walk into the water...
+            </p>
             <div className="static ...">
                 <p>Static parent</p>
                 <div className="absolute bottom-0 left-0 ...">
