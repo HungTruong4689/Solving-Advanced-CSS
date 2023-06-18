@@ -682,6 +682,12 @@ export default function Home() {
             <div className="relative h-32 w-32 ...">
                 <div className="absolute inset-x-0 top-0 h-16 ...">02</div>
             </div>
+            <ul className="list-disc">
+                <li>
+                    Now this is a story all about how, my life got
+                    flipped-turned upside down
+                </li>
+            </ul>
             <div className="relative h-32 w-32 ...">
                 <div className="absolute top-0 right-0 h-16 w-16 ...">03</div>
             </div>
