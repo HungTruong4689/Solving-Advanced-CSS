@@ -688,7 +688,7 @@ export default function Home() {
                     flipped-turned upside down
                 </li>
             </ul>
-            <ol class="list-decimal">
+            <ol className="list-decimal">
                 <li>
                     Now this is a story all about how, my life got
                     flipped-turned upside down
