@@ -688,6 +688,12 @@ export default function Home() {
                     flipped-turned upside down
                 </li>
             </ul>
+            <ol class="list-decimal">
+                <li>
+                    Now this is a story all about how, my life got
+                    flipped-turned upside down
+                </li>
+            </ol>
             <div className="relative h-32 w-32 ...">
                 <div className="absolute top-0 right-0 h-16 w-16 ...">03</div>
             </div>
