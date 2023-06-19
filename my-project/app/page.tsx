@@ -712,6 +712,9 @@ export default function Home() {
             <p className="text-right ...">
                 So I started to walk into the water...
             </p>
+            <p className="text-justify ...">
+                So I started to walk into the water...
+            </p>
             <div className="relative h-32 w-32 ...">
                 <div className="absolute inset-y-0 left-0 w-16 ...">04</div>
             </div>
