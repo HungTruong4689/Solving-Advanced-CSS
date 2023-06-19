@@ -718,6 +718,7 @@ export default function Home() {
             <p className="text-sky-400">The quick brown fox...</p>
             <p className="text-sky-400/100">The quick brown fox...</p>
             <p className="text-blue-600/[.06]">The quick brown fox...</p>
+            <p className="underline ...">The quick brown fox ...</p>
             <div className="relative h-32 w-32 ...">
                 <div className="absolute inset-y-0 left-0 w-16 ...">04</div>
             </div>
