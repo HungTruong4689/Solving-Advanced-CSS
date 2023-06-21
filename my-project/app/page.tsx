@@ -782,6 +782,7 @@ export default function Home() {
                 <div className="absolute bottom-0 left-0 h-16 w-16 ...">07</div>
             </div>
             <div className="pt-6 ...">pt-6</div>
+            <div className="pr-4 ...">pr-4</div>
             <p className="uppercase ...">The quick brown fox ...</p>
             <p className="normal-case ...">The quick brown fox ...</p>
             <div className="relative">
