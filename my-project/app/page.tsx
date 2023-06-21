@@ -788,6 +788,10 @@ export default function Home() {
             <div className="px-8 ...">px-8</div>
             <div className="py-8 ...">py-8</div>
             <div className="p-8 ...">p-8</div>
+
+            <div className="ps-8 ...">ps-8</div>
+            <div className="pe-8 ...">pe-8</div>
+
             <p className="uppercase ...">The quick brown fox ...</p>
             <p className="normal-case ...">The quick brown fox ...</p>
             <div className="relative">
