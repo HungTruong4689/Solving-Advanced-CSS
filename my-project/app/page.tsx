@@ -794,6 +794,7 @@ export default function Home() {
             <div className="mt-6 ...">mt-6</div>
             <div className="mr-4 ...">mr-4</div>
             <div className="mb-8 ...">mb-8</div>
+            <div className="ml-2 ...">ml-2</div>
 
             <p className="uppercase ...">The quick brown fox ...</p>
             <p className="normal-case ...">The quick brown fox ...</p>
