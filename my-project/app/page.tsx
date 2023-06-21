@@ -783,6 +783,7 @@ export default function Home() {
             </div>
             <div className="pt-6 ...">pt-6</div>
             <div className="pr-4 ...">pr-4</div>
+            <div className="pb-8 ...">pb-8</div>
             <p className="uppercase ...">The quick brown fox ...</p>
             <p className="normal-case ...">The quick brown fox ...</p>
             <div className="relative">
