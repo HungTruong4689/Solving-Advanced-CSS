@@ -785,6 +785,7 @@ export default function Home() {
             <div className="pr-4 ...">pr-4</div>
             <div className="pb-8 ...">pb-8</div>
             <div className="pl-2 ...">pl-2</div>
+            <div className="px-8 ...">px-8</div>
             <p className="uppercase ...">The quick brown fox ...</p>
             <p className="normal-case ...">The quick brown fox ...</p>
             <div className="relative">
