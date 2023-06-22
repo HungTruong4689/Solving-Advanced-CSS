@@ -807,6 +807,8 @@ export default function Home() {
                 <span className="inline-block">display: inline-block</span>
                 will wrap the element to prevent the text inside from extending
                 beyond its parent. Lastly, using the property{' '}
+                <span className="block">display: block</span>
+                will put the element on its own line and fill its parent.
             </div>
 
             <p className="uppercase ...">The quick brown fox ...</p>
