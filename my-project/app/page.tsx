@@ -663,6 +663,11 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div className="flex ...">
+                <div className="hidden ...">01</div>
+                <div>02</div>
+                <div>03</div>
+            </div>
             <p className="leading-normal ...">
                 So I started to walk into the water...
             </p>
