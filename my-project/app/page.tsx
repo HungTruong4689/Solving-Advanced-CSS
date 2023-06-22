@@ -799,6 +799,12 @@ export default function Home() {
             <div className="mx-8 ...">mx-8</div>
             <div className="my-8 ...">my-8</div>
             <div className="m-8 ...">m-8</div>
+            <div>
+                When controlling the flow of text, using the CSS property
+                <span className="inline">display: inline</span>
+                will cause the text inside the element to wrap normally. While
+                using the property{' '}
+            </div>
 
             <p className="uppercase ...">The quick brown fox ...</p>
             <p className="normal-case ...">The quick brown fox ...</p>
