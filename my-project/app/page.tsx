@@ -582,6 +582,13 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+                <div className="flex items-center">
+                    <img src="path/to/image.jpg" />
+                    <div>
+                        <strong>Andrew Alfred</strong>
+                        <span>Technical advisor</span>
+                    </div>
+                </div>
                 <div>01</div>
                 <div className="place-self-auto ...">02</div>
                 <div>03</div>
