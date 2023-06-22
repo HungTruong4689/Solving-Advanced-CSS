@@ -804,6 +804,9 @@ export default function Home() {
                 <span className="inline">display: inline</span>
                 will cause the text inside the element to wrap normally. While
                 using the property{' '}
+                <span className="inline-block">display: inline-block</span>
+                will wrap the element to prevent the text inside from extending
+                beyond its parent. Lastly, using the property{' '}
             </div>
 
             <p className="uppercase ...">The quick brown fox ...</p>
