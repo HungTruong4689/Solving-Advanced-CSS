@@ -695,6 +695,7 @@ export default function Home() {
                 <div className="w-5/6 ...">w-5/6</div>
             </div>
             <p className="ordinal ...">1st</p>
+            <p className="slashed-zero ...">0</p>
             <span className="min-w-full ...">min width</span>
             <div className="w-full ...">w-full</div>
             <div className="flex ...">
