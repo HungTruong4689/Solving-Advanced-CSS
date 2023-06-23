@@ -690,6 +690,7 @@ export default function Home() {
                 <div className="w-1/5 ...">w-1/5</div>
                 <div className="w-4/5 ...">w-4/5</div>
             </div>
+            <p className="tracking-tight ...">The quick brown fox ...</p>
             <p className="stacked-fractions ...">1/2 3/4 5/6</p>
             <p className="diagonal-fractions ...">1/2 3/4 5/6</p>
             <p className="proportional-nums ...">12121</p>
