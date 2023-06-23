@@ -663,6 +663,13 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div className="w-96 ..."></div>
+            <div className="w-80 ..."></div>
+            <div className="w-64 ..."></div>
+            <div className="w-48 ..."></div>
+            <div className="w-40 ..."></div>
+            <div className="w-32 ..."></div>
+            <div className="w-24 ..."></div>
             <div className="flex ...">
                 <div className="hidden ...">01</div>
                 <div>02</div>
