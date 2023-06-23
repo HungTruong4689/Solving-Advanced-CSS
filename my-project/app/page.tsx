@@ -694,6 +694,7 @@ export default function Home() {
                 <div className="w-1/6 ...">w-1/6</div>
                 <div className="w-5/6 ...">w-5/6</div>
             </div>
+            <span className="min-w-full ...">min width</span>
             <div className="w-full ...">w-full</div>
             <div className="flex ...">
                 <div className="hidden ...">01</div>
