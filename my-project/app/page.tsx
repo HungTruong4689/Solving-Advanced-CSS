@@ -671,6 +671,31 @@ export default function Home() {
             <div className="w-32 ..."></div>
             <div className="w-24 ..."></div>
             <div className="flex ...">
+                <div className="w-1/2 ... ">w-1/2</div>
+                <div className="w-1/2 ... ">w-1/2</div>
+            </div>
+            <div className="flex ...">
+                <div className="w-2/5 ...">w-2/5</div>
+                <div className="w-3/5 ...">w-3/5</div>
+            </div>
+            <div className="flex ...">
+                <div className="w-1/3 ...">w-1/3</div>
+                <div className="w-2/3 ...">w-2/3</div>
+            </div>
+            <div className="flex ...">
+                <div className="w-1/4 ...">w-1/4</div>
+                <div className="w-3/4 ...">w-3/4</div>
+            </div>
+            <div className="flex ...">
+                <div className="w-1/5 ...">w-1/5</div>
+                <div className="w-4/5 ...">w-4/5</div>
+            </div>
+            <div className="flex ...">
+                <div className="w-1/6 ...">w-1/6</div>
+                <div className="w-5/6 ...">w-5/6</div>
+            </div>
+            <div className="w-full ...">w-full</div>
+            <div className="flex ...">
                 <div className="hidden ...">01</div>
                 <div>02</div>
                 <div>03</div>
