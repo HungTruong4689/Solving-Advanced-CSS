@@ -690,6 +690,7 @@ export default function Home() {
                 <div className="w-1/5 ...">w-1/5</div>
                 <div className="w-4/5 ...">w-4/5</div>
             </div>
+            <p className="diagonal-fractions ...">1/2 3/4 5/6</p>
             <p className="proportional-nums ...">12121</p>
             <p className="proportional-nums ...">90909</p>
             <p className="tabular-nums ...">12121</p>
