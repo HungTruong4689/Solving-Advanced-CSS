@@ -690,6 +690,8 @@ export default function Home() {
                 <div className="w-1/5 ...">w-1/5</div>
                 <div className="w-4/5 ...">w-4/5</div>
             </div>
+            <p className="proportional-nums ...">12121</p>
+            <p className="proportional-nums ...">90909</p>
             <p className="lining-nums ...">1234567890</p>
             <p className="oldstyle-nums ...">1234567890</p>
             <div className="flex ...">
