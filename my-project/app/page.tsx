@@ -715,6 +715,9 @@ export default function Home() {
                 <div className="w-1/4 ...">w-1/4</div>
                 <div className="w-3/4 ...">w-3/4</div>
             </div>
+            <p className="text-justify ...">
+                So I started to walk into the water...
+            </p>
             <div className="flex ...">
                 <div className="w-1/5 ...">w-1/5</div>
                 <div className="w-4/5 ...">w-4/5</div>
