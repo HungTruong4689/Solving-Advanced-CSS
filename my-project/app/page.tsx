@@ -723,6 +723,24 @@ export default function Home() {
                 <div className="w-1/5 ...">w-1/5</div>
                 <div className="w-4/5 ...">w-4/5</div>
             </div>
+            <div>
+                <p>
+                    I’m Derek, an astro-engineer based in Tattooine. I like to
+                    build X-Wings at
+                    <a className="underline decoration-sky-500">
+                        My Company, Inc
+                    </a>
+                    . Outside of work, I like to{' '}
+                    <a className="underline decoration-pink-500">
+                        watch pod-racing
+                    </a>{' '}
+                    and have{' '}
+                    <a className="underline decoration-indigo-500">
+                        light-saber
+                    </a>{' '}
+                    fights.
+                </p>
+            </div>
             <p className="no-underline ...">The quick brown fox ...</p>
             <p className="line-through ...">The quick brown fox ...</p>
             <p className="overline ...">The quick brown fox ...</p>
