@@ -708,6 +708,9 @@ export default function Home() {
             <p className="text-center ...">
                 So I started to walk into the water...
             </p>
+            <p className="text-right ...">
+                So I started to walk into the water...
+            </p>
             <div className="flex ...">
                 <div className="w-1/4 ...">w-1/4</div>
                 <div className="w-3/4 ...">w-3/4</div>
