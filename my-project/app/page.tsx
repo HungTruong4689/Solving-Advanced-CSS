@@ -718,6 +718,7 @@ export default function Home() {
             <p className="text-justify ...">
                 So I started to walk into the water...
             </p>
+            <p className="underline ...">The quick brown fox ...</p>
             <div className="flex ...">
                 <div className="w-1/5 ...">w-1/5</div>
                 <div className="w-4/5 ...">w-4/5</div>
