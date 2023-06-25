@@ -683,6 +683,7 @@ export default function Home() {
                 <div className="w-2/3 ...">w-2/3</div>
             </div>
             <p className="tracking-normal ...">The quick brown fox ...</p>
+            <p className="tracking-wide ...">The quick brown fox ...</p>
             <div className="flex ...">
                 <div className="w-1/4 ...">w-1/4</div>
                 <div className="w-3/4 ...">w-3/4</div>
