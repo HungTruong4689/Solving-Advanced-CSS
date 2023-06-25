@@ -702,6 +702,9 @@ export default function Home() {
                     Lindsay Walton
                 </div>
             </article>
+            <p className="text-left ...">
+                So I started to walk into the water...
+            </p>
             <div className="flex ...">
                 <div className="w-1/4 ...">w-1/4</div>
                 <div className="w-3/4 ...">w-3/4</div>
