@@ -735,6 +735,9 @@ export default function Home() {
             <ul className="list-inside ...">
                 <li>5 cups chopped Porcini mushrooms</li>
             </ul>
+            <ul className="list-outside ...">
+                <li>5 cups chopped Porcini mushrooms</li>
+            </ul>
             <div>
                 <p>
                     I’m Derek, an astro-engineer based in Tattooine. I like to
