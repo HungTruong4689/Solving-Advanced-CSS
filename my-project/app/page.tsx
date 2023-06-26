@@ -738,6 +738,12 @@ export default function Home() {
             <ul className="list-outside ...">
                 <li>5 cups chopped Porcini mushrooms</li>
             </ul>
+            <ul className="list-disc">
+                <li>
+                    Now this is a story all about how, my life got
+                    flipped-turned upside down
+                </li>
+            </ul>
             <div>
                 <p>
                     I’m Derek, an astro-engineer based in Tattooine. I like to
