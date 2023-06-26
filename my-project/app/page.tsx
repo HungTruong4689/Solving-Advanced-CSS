@@ -759,6 +759,9 @@ export default function Home() {
             <p className="text-left ...">
                 So I started to walk into the water...
             </p>
+            <p className="text-center ...">
+                So I started to walk into the water...
+            </p>
             <div>
                 <p>
                     I’m Derek, an astro-engineer based in Tattooine. I like to
