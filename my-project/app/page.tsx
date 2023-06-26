@@ -723,6 +723,9 @@ export default function Home() {
                 <div className="w-1/5 ...">w-1/5</div>
                 <div className="w-4/5 ...">w-4/5</div>
             </div>
+            <p className="leading-normal ...">
+                So I started to walk into the water...
+            </p>
             <div>
                 <p>
                     I’m Derek, an astro-engineer based in Tattooine. I like to
