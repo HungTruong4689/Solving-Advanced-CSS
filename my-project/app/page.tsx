@@ -732,6 +732,9 @@ export default function Home() {
             <p className="leading-loose ...">
                 So I started to walk into the water...
             </p>
+            <ul className="list-inside ...">
+                <li>5 cups chopped Porcini mushrooms</li>
+            </ul>
             <div>
                 <p>
                     I’m Derek, an astro-engineer based in Tattooine. I like to
