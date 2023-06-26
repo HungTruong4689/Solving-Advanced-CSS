@@ -756,6 +756,9 @@ export default function Home() {
                     flipped-turned upside down
                 </li>
             </ol>
+            <p className="text-left ...">
+                So I started to walk into the water...
+            </p>
             <div>
                 <p>
                     I’m Derek, an astro-engineer based in Tattooine. I like to
