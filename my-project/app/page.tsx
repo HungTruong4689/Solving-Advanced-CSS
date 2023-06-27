@@ -783,6 +783,7 @@ export default function Home() {
             <div className="bg-origin-content p-4 border-4 border-dashed ..."></div>
             <div className="bg-origin-padding p-4 border-4 border-dashed ..."></div>
             <div className="bg-origin-border p-4 border-4 border-dashed ..."></div>
+            <div className="bg-no-repeat bg-top ..."></div>
             <div>
                 <p>
                     I’m Derek, an astro-engineer based in Tattooine. I like to
