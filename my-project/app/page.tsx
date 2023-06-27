@@ -768,6 +768,10 @@ export default function Home() {
             <p className="text-justify ...">
                 So I started to walk into the water...
             </p>
+            <div
+                className="bg-fixed ..."
+                style="background-image: url(...)"
+            ></div>
             <div>
                 <p>
                     I’m Derek, an astro-engineer based in Tattooine. I like to
