@@ -770,6 +770,7 @@ export default function Home() {
             </p>
             <div className="bg-fixed ..."></div>
             <div className="bg-local ..."></div>
+            <div className="bg-scroll ..."></div>
             <div>
                 <p>
                     I’m Derek, an astro-engineer based in Tattooine. I like to
