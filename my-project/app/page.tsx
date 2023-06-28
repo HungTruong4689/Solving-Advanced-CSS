@@ -792,6 +792,10 @@ export default function Home() {
             <div className="bg-no-repeat bg-bottom ..."></div>
             <div className="bg-no-repeat bg-right-bottom ..."></div>
             <div className="bg-no-repeat bg-center ..."></div>
+            <div
+                className="bg-repeat-x bg-center ..."
+                style="background-image: url(...)"
+            ></div>
             <div>
                 <p>
                     I’m Derek, an astro-engineer based in Tattooine. I like to
