@@ -788,6 +788,7 @@ export default function Home() {
             <div className="bg-no-repeat bg-left ..."></div>
             <div className="bg-no-repeat bg-center ..."></div>
             <div className="bg-no-repeat bg-right ..."></div>
+            <div className="bg-no-repeat bg-left-bottom ..."></div>
 
             <div>
                 <p>
