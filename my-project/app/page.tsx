@@ -725,6 +725,7 @@ export default function Home() {
                 <div className="w-1/5 ...">w-1/5</div>
                 <div className="w-4/5 ...">w-4/5</div>
             </div>
+            <div className="bg-contain bg-center ..."></div>
             <p className="leading-normal ...">
                 So I started to walk into the water...
             </p>
