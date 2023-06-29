@@ -719,6 +719,7 @@ export default function Home() {
                 So I started to walk into the water...
             </p>
             <div className="bg-auto bg-no-repeat bg-center ..."></div>
+            <div className="bg-cover bg-center ..."></div>
             <p className="underline ...">The quick brown fox ...</p>
             <div className="flex ...">
                 <div className="w-1/5 ...">w-1/5</div>
