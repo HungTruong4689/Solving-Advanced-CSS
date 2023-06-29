@@ -718,6 +718,7 @@ export default function Home() {
             <p className="text-justify ...">
                 So I started to walk into the water...
             </p>
+            <div className="bg-auto bg-no-repeat bg-center ..."></div>
             <p className="underline ...">The quick brown fox ...</p>
             <div className="flex ...">
                 <div className="w-1/5 ...">w-1/5</div>
@@ -793,7 +794,7 @@ export default function Home() {
             <div className="bg-no-repeat bg-right-bottom ..."></div>
             <div className="bg-no-repeat bg-center ..."></div>
             <div className="bg-repeat-x bg-center ..."></div>
-            <div class="bg-repeat-y bg-center ..."></div>
+            <div className="bg-repeat-y bg-center ..."></div>
             <div>
                 <p>
                     I’m Derek, an astro-engineer based in Tattooine. I like to
