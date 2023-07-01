@@ -770,6 +770,10 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
+            <button className="outline outline-offset-2 outline-1 ...">
+                Button A
+            </button>
+
             <p className="leading-normal ...">
                 So I started to walk into the water...
             </p>
