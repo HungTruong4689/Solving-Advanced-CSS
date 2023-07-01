@@ -739,7 +739,7 @@ export default function Home() {
             <div className="border-solid border-2 border-sky-500 ..."></div>
             <div className="border-dashed border-2 border-sky-500 ..."></div>
             <div className="border-dotted border-2 border-sky-500 ..."></div>
-
+            <div className="border-double border-4 border-sky-500 ..."></div>
             <p className="leading-normal ...">
                 So I started to walk into the water...
             </p>
