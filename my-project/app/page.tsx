@@ -750,6 +750,11 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
+            <div className="flex flex-col-reverse divide-y divide-y-reverse">
+                <div>01</div>
+                <div>02</div>
+                <div>03</div>
+            </div>
             <p className="leading-normal ...">
                 So I started to walk into the water...
             </p>
