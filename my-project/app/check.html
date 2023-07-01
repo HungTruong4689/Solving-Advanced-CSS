@@ -1,0 +1,152 @@
+<div class="w-full border border-solid">
+    <table class="overflow-x-auto">
+        <thead class="text-white uppercase">
+            <tr>
+                <th class="border px-4 py-2 text-highlight text-sm">
+                    PROJECT-NAME
+                </th>
+                <th class="border px-4 py-2 text-sm">PROJECTID</th>
+                <th class="border px-4 py-2 text-sm">MODEL / TRAIN ID</th>
+                <th class="border px-4 py-2 text-highlight text-sm">
+                    MODELNAME
+                </th>
+                <th class="border px-4 py-2 text-sm">DESCRIPTION</th>
+                <th class="border px-4 py-2 text-sm">DATE</th>
+                <th class="border px-4 py-2 text-sm">PROGRESS</th>
+                <th class="border px-4 py-2 text-sm">MODEL</th>
+                <th class="border px-4 py-2 text-sm">STATUS</th>
+                <th class="border px-4 py-2 text-sm">ACTION</th>
+            </tr>
+        </thead>
+        <tbody class="text-default" v-if="trainingData">
+            <tr v-for="data in trainingData" :key="data.projectid">
+                <td class="border px-4 py-2 text-highlight text-sm">
+                    {{ data.projectname }}
+                    <!-- {{ data.projectname }} -->
+                    <!-- <template >
+                                            <input
+                                                v-model="data.projectname"
+                                                type="text"
+                                                class="bg-header border-2 border-customWhite shadow-sm w-full m-0"
+                                                @input="validateInput(data)"
+                                            />
+                                            <span v-if="data.nameError" class="text-red-500"
+                                                >Invalid input</span
+                                            >
+                                        </template> -->
+                    <!-- <template>
+                                            {{ data.projectname }}
+                                        </template> -->
+                </td>
+                <td class="border px-4 py-2 text-sm">{{ data.projectid }}</td>
+                <td class="border px-4 py-2 text-sm">{{ data.trainid }}</td>
+                <td class="border px-4 py-2 text-highlight text-sm">
+                    {{ data.modelname }}
+                    <!-- {{ data.projectname }} -->
+                    <!-- <template v-if="data.editing">
+                                            <input
+                                                v-model="data.projectname"
+                                                type="text"
+                                                class="bg-header border-2 border-customWhite shadow-sm w-full m-0"
+                                                @input="validateInput(data)"
+                                            />
+                                            <span v-if="data.nameError" class="text-red-500"
+                                                >Invalid input</span
+                                            >
+                                        </template> -->
+                    <!-- <template>
+                                            {{ data.modelname }}
+                                        </template> -->
+                </td>
+                <td class="border px-4 py-2 text-sm">
+                    {{ data.modeldescription }}
+                    <!-- {{ data.projectname }} -->
+                    <!-- <template v-if="data.editing">
+                                            <input
+                                                v-model="data.projectname"
+                                                type="text"
+                                                class="bg-header border-2 border-customWhite shadow-sm w-full m-0"
+                                                @input="validateInput(data)"
+                                            />
+                                            <span v-if="data.nameError" class="text-red-500"
+                                                >Invalid input</span
+                                            >
+                                        </template> -->
+                    <!-- <template>
+                                            {{ data.modeldescription }}
+                                        </template> -->
+                </td>
+                <td class="border px-4 py-2 text-sm">
+                    {{ data.created_at.split(' ')[0].split('T')[0] }}
+                </td>
+                <td class="border px-4 py-2 text-sm">
+                    {{ data.created_at.split(' ')[0].split('T')[0] }}
+                </td>
+                <td class="border px-4 py-2 text-sm">
+                    {{ data.framework }}:{{ data.mode }} | W:{{
+                    data.image_size_width }} H:{{ data.image_size_height }}
+                    <!-- <template v-if="data.editing">
+                                            <input
+                                                v-model="data.projectpath"
+                                                type="text"
+                                                class="bg-header border-2 border-customWhite shadow-sm w-full m-0"
+                                                @input="validateInput(data)"
+                                            />
+                                            <span v-if="data.pathError" class="text-red-500"
+                                                >Invalid input</span
+                                            >
+                                        </template> -->
+                    <!-- <template>
+                                            {{ data.framework }}:{{ data.mode }} | W:{{
+                                                data.image_size_width
+                                            }}
+                                            H:{{ data.image_size_height }}
+                                        </template> -->
+                </td>
+                <td class="border px-4 py-2 text-sm">
+                    {{ data.status }}
+                    <!-- <template v-if="data.editing">
+                                                <input
+                                                    v-model="data.projecttrash"
+                                                    type="text"
+                                                    class="bg-header border-2 border-customWhite shadow-sm w-full m-0"
+                                                />
+                                            </template>
+                                            <template v-else>
+                                                {{ data.projecttrash }}
+                                            </template> -->
+                </td>
+                <td class="border px-4 py-2 text-sm">
+                    <div class="flex justify-end space-x-2">
+                        <button
+                            class="inline-flex items-center justify-center px-4 py-1 bg-header text-highlight text-sm font-medium rounded-md border-2 border-highlight hover:bg-highlight hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                            @click="navigateToProjectPage(data._id)"
+                        >
+                            Editor
+                        </button>
+                        <button
+                            class="inline-flex items-center justify-center px-4 py-1 bg-header text-activate text-sm font-medium rounded-md border-2 border-activate hover:bg-activate hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                            :disabled="data.projecttrain !== 1"
+                            @click.prevent="showStartTraningModel(data)"
+                        >
+                            EXPORT
+                        </button>
+                        <button
+                            class="inline-flex items-center justify-center px-4 py-1 bg-header text-red-500 text-sm font-medium rounded-md border-2 border-red-500 hover:bg-red-500 hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                            @click="navigateToProjectPage(data._id)"
+                        >
+                            DEL
+                        </button>
+                        <button
+                            class="inline-flex items-center justify-center px-4 py-1 bg-header text-green-500 text-sm font-medium rounded-md border-2 border-green-500 hover:bg-green-500 hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                            :disabled="data.projecttrain !== 1"
+                            @click.prevent="showStartTraningModel(data)"
+                        >
+                            Train
+                        </button>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

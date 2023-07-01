@@ -736,6 +736,8 @@ export default function Home() {
             <div className="h-14 bg-gradient-to-br from-purple-500 to-pink-500"></div>
             <div className="bg-gradient-to-r from-indigo-500 ..."></div>
             <div className="bg-gradient-to-r from-cyan-500 to-blue-500 ..."></div>
+            <div className="border-solid border-2 border-sky-500 ..."></div>
+
             <p className="leading-normal ...">
                 So I started to walk into the water...
             </p>
