@@ -810,6 +810,8 @@ export default function Home() {
             <p className="leading-relaxed ...">
                 So I started to walk into the water...
             </p>
+            <button className="outline outline-offset-0 ...">Button A</button>
+
             <p className="leading-loose ...">
                 So I started to walk into the water...
             </p>
