@@ -811,6 +811,7 @@ export default function Home() {
                 So I started to walk into the water...
             </p>
             <button className="outline outline-offset-0 ...">Button A</button>
+            <button className="outline outline-offset-2 ...">Button B</button>
 
             <p className="leading-loose ...">
                 So I started to walk into the water...
