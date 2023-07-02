@@ -812,7 +812,7 @@ export default function Home() {
             </p>
             <button className="outline outline-offset-0 ...">Button A</button>
             <button className="outline outline-offset-2 ...">Button B</button>
-
+            <button className="outline outline-offset-4 ...">Button C</button>
             <p className="leading-loose ...">
                 So I started to walk into the water...
             </p>
