@@ -782,6 +782,9 @@ export default function Home() {
             <button className="outline outline-offset-2 outline-blue-500 ...">
                 Button A
             </button>
+            <button className="outline outline-offset-2 outline-cyan-500 ...">
+                Button B
+            </button>
 
             <p className="leading-normal ...">
                 So I started to walk into the water...
