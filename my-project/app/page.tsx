@@ -788,6 +788,9 @@ export default function Home() {
             <button className="outline outline-offset-2 outline-pink-500 ...">
                 Button C
             </button>
+            <button className="outline-2 outline-blue-500/50 ...">
+                Save Changes
+            </button>
             <p className="leading-normal ...">
                 So I started to walk into the water...
             </p>
