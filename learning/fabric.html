@@ -6,19 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.4.0/fabric.min.js"></script>
     <style>
-      canvas {
-        border: 1px solid #000;
+      .cover {
+        position: relative;
+        /* top: 100px;
+        left: 500px; */
         width: 800px;
         height: 600px;
+      }
+      canvas {
+        border: 1px solid #000;
       }
     </style>
   </head>
   <body>
-    <canvas id="canvas"></canvas>
+    <div class="cover" id="canvasparent">
+      <canvas id="canvas"></canvas>
+    </div>
 
     <script>
       // Lấy đối tượng canvas
       var canvas = new fabric.Canvas("canvas");
+      var parent = document.getElementById("canvasparent");
+
+      canvas.setWidth(parent.clientWidth);
+      canvas.setHeight(parent.clientHeight);
 
       // Lấy ảnh từ URL và vẽ lên canvas
       fabric.Image.fromURL(
@@ -39,9 +50,9 @@
       canvas.on("mouse:wheel", function (opt) {
         var delta = opt.e.deltaY;
         var zoom = canvas.getZoom();
-        zoom = zoom + delta / 200;
+        zoom = zoom + delta / 500;
         if (zoom > 20) zoom = 20;
-        if (zoom < 0.01) zoom = 0.01;
+        if (zoom < 0.1) zoom = 0.1;
         canvas.zoomToPoint({ x: opt.e.offsetX, y: opt.e.offsetY }, zoom);
         opt.e.preventDefault();
         opt.e.stopPropagation();
