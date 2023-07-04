@@ -92,6 +92,9 @@ export default function Home() {
             <div className="bg-sky-300 ...">
                 <img className="object-fill h-48 w-96 ..." />
             </div>
+            <div className="bg-cyan-300">
+                <img className="object-scale-down h-48 w-96 ..." />
+            </div>
             <div className="p-4">
                 <div className="flow-root ...">
                     <div className="my-4 ...">
