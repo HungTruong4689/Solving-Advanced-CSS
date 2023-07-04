@@ -78,6 +78,11 @@ export default function Home() {
             <p className="clear-both ...">
                 Maybe we can live without libraries...
             </p>
+            <img className="float-left ..." src="path/to/image.jpg" />
+            <img className="float-right ..." src="path/to/image.jpg" />
+            <p className="clear-none ...">
+                Maybe we can live without libraries...
+            </p>
             <div className="p-4">
                 <div className="flow-root ...">
                     <div className="my-4 ...">
