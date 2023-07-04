@@ -101,6 +101,9 @@ export default function Home() {
             <p className="text-left ...">
                 So I started to walk into the water...
             </p>
+            <p className="text-center ...">
+                So I started to walk into the water...
+            </p>
             <div className="p-4">
                 <div className="flow-root ...">
                     <div className="my-4 ...">
