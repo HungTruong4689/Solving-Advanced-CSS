@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Home() {
     console.log('test')
     return (
@@ -65,6 +63,11 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <img className="float-left ..." src="path/to/image.jpg" />
+            <img className="float-right ..." src="path/to/image.jpg" />
+            <p className="clear-left ...">
+                Maybe we can live without libraries...
+            </p>
             <div className="p-4">
                 <div className="flow-root ...">
                     <div className="my-4 ...">
