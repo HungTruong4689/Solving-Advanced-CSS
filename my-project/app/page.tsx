@@ -841,6 +841,7 @@ export default function Home() {
                 So I started to walk into the water...
             </p>
             <p className="underline decoration-2 ...">The quick brown fox...</p>
+            <p className="underline decoration-4 ...">The quick brown fox...</p>
             <p className="leading-7 ...">
                 So I started to walk into the water...
             </p>
