@@ -836,6 +836,7 @@ export default function Home() {
             <p className="leading-loose ...">
                 So I started to walk into the water...
             </p>
+            <p className="underline decoration-1 ...">The quick brown fox...</p>
             <p className="leading-6 ...">
                 So I started to walk into the water...
             </p>
