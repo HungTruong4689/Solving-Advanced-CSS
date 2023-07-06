@@ -827,6 +827,9 @@ export default function Home() {
                     Lindsay Walton
                 </div>
             </article>
+            <p className="leading-normal ...">
+                So I started to walk into the water...
+            </p>
             <button className="outline outline-offset-2 outline-1 ...">
                 Button A
             </button>
