@@ -839,6 +839,9 @@ export default function Home() {
             <p className="leading-6 ...">
                 So I started to walk into the water...
             </p>
+            <p className="leading-7 ...">
+                So I started to walk into the water...
+            </p>
             <button className="outline outline-offset-2 outline-1 ...">
                 Button A
             </button>
