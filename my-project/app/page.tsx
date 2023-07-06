@@ -840,6 +840,10 @@ export default function Home() {
             <p className="leading-6 ...">
                 So I started to walk into the water...
             </p>
+            <p className="underline underline-offset-1 ...">
+                The quick brown fox...
+            </p>
+
             <p className="underline decoration-2 ...">The quick brown fox...</p>
             <p className="underline decoration-4 ...">The quick brown fox...</p>
             <p className="leading-7 ...">
