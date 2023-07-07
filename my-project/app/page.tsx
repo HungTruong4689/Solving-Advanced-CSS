@@ -855,6 +855,13 @@ export default function Home() {
             <span className="inline-block align-text-top ...">...</span>
             <span className="inline-block align-text-bottom ...">...</span>
             <div className="-indent-8">
+                <div className="w-3/4 ...">
+                    <div className="whitespace-normal ...">
+                        Hey everyone! It's almost 2022 and we still don't know
+                        if there is aliens living among us, or do we? Maybe the
+                        person writing this is an alien. You will never know.
+                    </div>
+                </div>
                 So I started to walk into the water. I won't lie to...
             </div>
             <p className="text-clip overflow-hidden ...">...</p>
