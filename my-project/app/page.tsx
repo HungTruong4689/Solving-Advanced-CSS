@@ -850,6 +850,7 @@ export default function Home() {
             </p>
             <span className="inline-block align-baseline ...">...</span>
             <span className="inline-block align-top ...">...</span>
+            <span className="inline-block align-middle ...">...</span>
             <div className="-indent-8">
                 So I started to walk into the water. I won't lie to...
             </div>
