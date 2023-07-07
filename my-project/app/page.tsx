@@ -849,6 +849,7 @@ export default function Home() {
                 biologist.
             </p>
             <span className="inline-block align-baseline ...">...</span>
+            <span className="inline-block align-top ...">...</span>
             <div className="-indent-8">
                 So I started to walk into the water. I won't lie to...
             </div>
