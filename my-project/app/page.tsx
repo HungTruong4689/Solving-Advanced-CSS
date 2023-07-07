@@ -840,6 +840,7 @@ export default function Home() {
             <p className="leading-6 ...">
                 So I started to walk into the water...
             </p>
+            <p className="text-clip overflow-hidden ...">...</p>
             <p className="underline underline-offset-1 ...">
                 The quick brown fox...
             </p>
