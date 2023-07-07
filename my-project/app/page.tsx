@@ -848,6 +848,7 @@ export default function Home() {
                 tell you Jerry at that moment, I <em>was</em> a marine
                 biologist.
             </p>
+            <span className="inline-block align-baseline ...">...</span>
             <div className="-indent-8">
                 So I started to walk into the water. I won't lie to...
             </div>
