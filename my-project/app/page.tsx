@@ -871,7 +871,7 @@ export default function Home() {
             <div className="bg-local ..."></div>
             <div className="bg-clip-border p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
             <div className="bg-clip-padding p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
-
+            <div className="bg-clip-content p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
             <div className="-indent-8">
                 <div className="w-3/4 ...">
                     <div className="whitespace-normal ...">
