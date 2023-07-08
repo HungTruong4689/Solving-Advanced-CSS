@@ -869,6 +869,7 @@ export default function Home() {
             </p>
             <div className="bg-fixed ..."></div>
             <div className="bg-local ..."></div>
+            <div className="bg-scroll ..."></div>
             <div className="-indent-8">
                 <div className="w-3/4 ...">
                     <div className="whitespace-normal ...">
