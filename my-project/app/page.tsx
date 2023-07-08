@@ -864,6 +864,9 @@ export default function Home() {
             <p className="hyphens-manual ...">
                 ... Kraftfahrzeug&shy;haftpflichtversicherung is a ...
             </p>
+            <p className="hyphens-auto ..." lang="de">
+                ... Kraftfahrzeughaftpflichtversicherung is a ...
+            </p>
             <div className="-indent-8">
                 <div className="w-3/4 ...">
                     <div className="whitespace-normal ...">
