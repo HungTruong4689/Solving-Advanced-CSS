@@ -868,6 +868,7 @@ export default function Home() {
                 ... Kraftfahrzeughaftpflichtversicherung is a ...
             </p>
             <div className="bg-fixed ..."></div>
+            <div className="bg-local ..."></div>
             <div className="-indent-8">
                 <div className="w-3/4 ...">
                     <div className="whitespace-normal ...">
