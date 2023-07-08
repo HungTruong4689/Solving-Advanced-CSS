@@ -856,6 +856,7 @@ export default function Home() {
             <span className="inline-block align-text-bottom ...">...</span>
             <p className="break-normal ...">...</p>
             <p className="break-words ...">...</p>
+            <p className="break-all ...">...</p>
             <div className="-indent-8">
                 <div className="w-3/4 ...">
                     <div className="whitespace-normal ...">
