@@ -879,7 +879,7 @@ export default function Home() {
             <div className="rounded-t-lg ..."></div>
             <div className="rounded-r-lg ..."></div>
             <div className="rounded-b-lg ..."></div>
-
+            <div className="rounded-l-lg ..."></div>
             <div className="bg-clip-border p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
             <div className="bg-clip-padding p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
             <div className="bg-clip-content p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
