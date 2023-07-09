@@ -870,7 +870,7 @@ export default function Home() {
             <div className="rounded ..."></div>
             <div className="rounded-md ..."></div>
             <div className="rounded-lg ..."></div>
-
+            <div className="rounded-full ..."></div>
             <div className="bg-fixed ..."></div>
             <div className="bg-local ..."></div>
             <div className="bg-clip-border p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
