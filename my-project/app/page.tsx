@@ -869,6 +869,7 @@ export default function Home() {
             </p>
             <div className="rounded ..."></div>
             <div className="rounded-md ..."></div>
+            <div className="rounded-lg ..."></div>
 
             <div className="bg-fixed ..."></div>
             <div className="bg-local ..."></div>
