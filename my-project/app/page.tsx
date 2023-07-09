@@ -877,6 +877,10 @@ export default function Home() {
             <div className="rounded-tr-lg ..."></div>
             <div className="rounded-br-lg ..."></div>
             <div className="rounded-bl-lg ..."></div>
+            <div className="ltr">
+                <div className="rounded-s-lg ..."></div>
+            </div>
+
             <button className="rounded-full ...">Save Changes</button>
             <button className="rounded-full ...">Save Changes</button>
             <button className="rounded-none ...">Save Changes</button>
