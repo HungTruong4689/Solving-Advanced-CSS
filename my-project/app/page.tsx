@@ -917,6 +917,16 @@ export default function Home() {
                 <p>Maybe we can live without...</p>
                 <p>Look. If you think this is...</p>
             </div>
+            <span className="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+                Hello
+                <br />
+                World
+            </span>
+            <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+                Hello
+                <br />
+                World
+            </span>
             <div className="columns-2">
                 <p>Well, let me tell you something, ...</p>
                 <p className="break-inside-avoid-page">
