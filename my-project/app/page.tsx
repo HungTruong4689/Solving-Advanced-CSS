@@ -939,6 +939,18 @@ export default function Home() {
                 <span className="block">display: block</span>
                 will put the element on its own line and fill its parent.
             </div>
+            <div className="p-4">
+                <div className="flow-root ...">
+                    <div className="my-4 ...">
+                        Well, let me tell you something, ...
+                    </div>
+                </div>
+                <div className="flow-root ...">
+                    <div className="my-4 ...">
+                        Sure, go ahead, laugh if you want...
+                    </div>
+                </div>
+            </div>
             <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                 Hello
                 <br />
