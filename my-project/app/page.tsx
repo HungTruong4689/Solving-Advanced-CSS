@@ -928,6 +928,17 @@ export default function Home() {
             <div className="box-content h-32 w-32 p-4 border-4 ...">
                 BOX CONTENT
             </div>
+            <div>
+                When controlling the flow of text, using the CSS property
+                <span className="inline">display: inline</span>
+                will cause the text inside the element to wrap normally. While
+                using the property{' '}
+                <span className="inline-block">display: inline-block</span>
+                will wrap the element to prevent the text inside from extending
+                beyond its parent. Lastly, using the property{' '}
+                <span className="block">display: block</span>
+                will put the element on its own line and fill its parent.
+            </div>
             <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                 Hello
                 <br />
