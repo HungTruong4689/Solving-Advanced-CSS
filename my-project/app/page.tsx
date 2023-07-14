@@ -925,6 +925,9 @@ export default function Home() {
             <div className="box-border h-32 w-32 p-4 border-4 ...">
                 BOX BORDER
             </div>
+            <div className="box-content h-32 w-32 p-4 border-4 ...">
+                BOX CONTENT
+            </div>
             <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                 Hello
                 <br />
