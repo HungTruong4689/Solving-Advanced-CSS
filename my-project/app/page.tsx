@@ -939,6 +939,10 @@ export default function Home() {
                 <span className="block">display: block</span>
                 will put the element on its own line and fill its parent.
             </div>
+            <img className="float-right ..." src="path/to/image.jpg" />
+            <p>
+                Maybe we can live without libraries, people like you and me. ...
+            </p>
             <div className="p-4">
                 <div className="flow-root ...">
                     <div className="my-4 ...">
