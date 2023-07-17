@@ -965,6 +965,9 @@ export default function Home() {
             <p>
                 Maybe we can live without libraries, people like you and me. ...
             </p>
+            <div className="bg-indigo-300 ...">
+                <img className="object-cover h-48 w-96 ..." />
+            </div>
             <div className="p-4">
                 <div className="flow-root ...">
                     <div className="my-4 ...">
