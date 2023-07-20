@@ -979,8 +979,6 @@ export default function Home() {
                 <span className="inline-block">display: inline-block</span>
                 will wrap the element to prevent the text inside from extending
                 beyond its parent. Lastly, using the property{' '}
-                <span className="block">display: block</span>
-                will put the element on its own line and fill its parent.
             </div>
             <div className="bg-indigo-300 ...">
                 <img className="object-fill h-48 w-96 ..." />
