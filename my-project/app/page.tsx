@@ -971,6 +971,17 @@ export default function Home() {
             <div className="bg-indigo-300 ...">
                 <img className="object-contain h-48 w-96 ..." />
             </div>
+            <div>
+                When controlling the flow of text, using the CSS property
+                <span className="inline">display: inline</span>
+                will cause the text inside the element to wrap normally. While
+                using the property{' '}
+                <span className="inline-block">display: inline-block</span>
+                will wrap the element to prevent the text inside from extending
+                beyond its parent. Lastly, using the property{' '}
+                <span className="block">display: block</span>
+                will put the element on its own line and fill its parent.
+            </div>
             <div className="bg-indigo-300 ...">
                 <img className="object-fill h-48 w-96 ..." />
             </div>
