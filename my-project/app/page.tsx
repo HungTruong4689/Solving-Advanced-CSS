@@ -983,6 +983,10 @@ export default function Home() {
                 <img className="w-full aspect-video ..." src="..." />
                 <img className="w-full aspect-square ..." src="..." />
             </div>
+            <div className="columns-4 ...">
+                <img className="w-full aspect-video ..." src="..." />
+                <img className="w-full aspect-square ..." src="..." />
+            </div>
             <div>
                 When controlling the flow of text, using the CSS property
                 <span className="inline">display: inline</span>
