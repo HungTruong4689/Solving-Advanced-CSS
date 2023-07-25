@@ -752,7 +752,9 @@ export default function Home() {
             <p className="text-base/7 ...">
                 So I started to walk into the water...
             </p>
-
+            <p className="text-base/loose ...">
+                So I started to walk into the water...
+            </p>
             <p className="text-left ...">
                 So I started to walk into the water...
             </p>
