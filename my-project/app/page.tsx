@@ -745,7 +745,7 @@ export default function Home() {
             <p className="text-base ...">The quick brown fox ...</p>
             <p className="text-lg ...">The quick brown fox ...</p>
             <p className="text-xl ...">The quick brown fox ...</p>
-
+            <p className="text-2xl ...">The quick brown fox ...</p>
             <p className="text-left ...">
                 So I started to walk into the water...
             </p>
