@@ -741,6 +741,8 @@ export default function Home() {
                     Lindsay Walton
                 </div>
             </article>
+            <p className="text-sm ...">The quick brown fox ...</p>
+
             <p className="text-left ...">
                 So I started to walk into the water...
             </p>
