@@ -759,6 +759,7 @@ export default function Home() {
                 <div className="basis-2">05</div>
                 <div className="basis-3">06</div>
                 <div className="basis-4">07</div>
+                <div className="basis-44">08</div>
             </div>
             <p className="text-base/6 ...">
                 So I started to walk into the water...
