@@ -753,6 +753,8 @@ export default function Home() {
             <p className="text-2xl ...">The quick brown fox ...</p>
             <div className="flex flex-row">
                 <div className="basis-1/4">01</div>
+                <div className="basis-1/4">02</div>
+                <div className="basis-1/2">03</div>
             </div>
             <p className="text-base/6 ...">
                 So I started to walk into the water...
