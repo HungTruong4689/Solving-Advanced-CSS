@@ -766,6 +766,11 @@ export default function Home() {
                 <div className="basis-1/2">12</div>
                 <div className="basis-11/12">13</div>
             </div>
+            <div className="flex flex-row ...">
+                <div>01</div>
+                <div>02</div>
+                <div>03</div>
+            </div>
             <p className="text-base/6 ...">
                 So I started to walk into the water...
             </p>
