@@ -791,6 +791,11 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
+            <div className="flex flex-wrap">
+                <div>01</div>
+                <div>02</div>
+                <div>03</div>
+            </div>
             <p className="text-base/6 ...">
                 So I started to walk into the water...
             </p>
