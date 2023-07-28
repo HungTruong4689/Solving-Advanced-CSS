@@ -801,6 +801,9 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
+            <div className="flex">
+                <div className="flex-none w-14 h-14">01</div>
+            </div>
             <p className="text-base/6 ...">
                 So I started to walk into the water...
             </p>
