@@ -811,6 +811,11 @@ export default function Home() {
                 <div className="flex-initial w-64 ...">02</div>
                 <div className="flex-initial w-32 ...">03</div>
             </div>
+            <div className="flex ...">
+                <div className="grow h-14 ...">01</div>
+                <div className="grow-0 h-14 ...">02</div>
+                <div className="grow h-14 ...">03</div>
+            </div>
             <div className="flex">
                 <div className="flex-none ...">01</div>
                 <div className="flex-1 w-64 ...">02</div>
