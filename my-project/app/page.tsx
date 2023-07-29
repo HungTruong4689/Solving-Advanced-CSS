@@ -860,6 +860,9 @@ export default function Home() {
             <div className="box-border h-32 w-32 p-4 border-4 ...">
                 BOX BORDER
             </div>
+            <div className="box-content h-32 w-32 p-4 border-4 ...">
+                BOX CONTENT
+            </div>
             <div className="flex ...">
                 <div className="flex-none w-14 h-14 ...">01</div>
                 <div className="grow h-14 ...">02</div>
