@@ -819,6 +819,12 @@ export default function Home() {
                 <p>Maybe we can live without...</p>
                 <p>Look. If you think this is...</p>
             </div>
+            <div className="columns-2">
+                <p>Well, let me tell you something, ...</p>
+                <p className="break-after-all">Sure, go ahead, laugh...</p>
+                <p>Maybe we can live without...</p>
+                <p>Look. If you think this is...</p>
+            </div>
             <div className="flex ...">
                 <div className="flex-none w-14 h-14 ...">01</div>
                 <div className="grow h-14 ...">02</div>
