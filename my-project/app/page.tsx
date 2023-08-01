@@ -958,6 +958,7 @@ export default function Home() {
             <div className="bg-gradient-to-r from-indigo-500 ..."></div>
             <div className="bg-gradient-to-r from-cyan-500 to-blue-500 ..."></div>
             <div className="border-solid border-2 border-sky-500 ..."></div>
+            <div className="border-solid border-2 border-sky-500 ..."></div>
             <div className="border-dashed border-2 border-sky-500 ..."></div>
             <div className="border-dotted border-2 border-sky-500 ..."></div>
             <div className="border-double border-4 border-sky-500 ..."></div>
