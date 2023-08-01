@@ -934,6 +934,9 @@ export default function Home() {
             <p className="text-justify ...">
                 So I started to walk into the water...
             </p>
+            <p className="text-justify ...">
+                So I started to walk into the water...
+            </p>
             <div className="bg-auto bg-no-repeat bg-center ..."></div>
             <div className="bg-cover bg-center ..."></div>
             <p className="underline ...">The quick brown fox ...</p>
