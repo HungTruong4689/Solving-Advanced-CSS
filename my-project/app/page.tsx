@@ -988,6 +988,11 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
+            <div className="divide-y-4 divide-slate-400/25 ...">
+                <div>01</div>
+                <div>02</div>
+                <div>03</div>
+            </div>
             <div className="divide-y divide-dashed">
                 <div>01</div>
                 <div>02</div>
