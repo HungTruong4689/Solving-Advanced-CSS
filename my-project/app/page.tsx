@@ -694,6 +694,7 @@ export default function Home() {
                 <div className="grid gap-4 grid-cols-3 grid-rows-3"></div>
                 <div>01</div>
                 <div className="place-self-auto ...">02</div>
+                <div className="place-self-auto ...">03</div>
                 <div>03</div>
                 <div>04</div>
                 <div>05</div>
