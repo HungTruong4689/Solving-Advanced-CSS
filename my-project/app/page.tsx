@@ -720,6 +720,13 @@ export default function Home() {
                         <div className="table-cell text-left ...">Year</div>
                     </div>
                 </div>
+                <div className="table-header-group ...">
+                    <div className="table-row">
+                        <div className="table-cell text-left ...">Song</div>
+                        <div className="table-cell text-left ...">Artist</div>
+                        <div className="table-cell text-left ...">Year</div>
+                    </div>
+                </div>
                 <div className="table-row-group">
                     <div className="table-row">
                         <div className="table-cell ...">
@@ -773,6 +780,7 @@ export default function Home() {
                 <div className="w-1/3 ...">w-1/3</div>
                 <div className="w-2/3 ...">w-2/3</div>
             </div>
+            <p className="tracking-normal ...">The quick brown fox ...</p>
             <p className="tracking-normal ...">The quick brown fox ...</p>
             <p className="tracking-wide ...">The quick brown fox ...</p>
             <article>
