@@ -813,6 +813,7 @@ export default function Home() {
                 </div>
             </article>
             <p className="font-light ...">The quick brown fox ...</p>
+            <p className="font-light ...">The quick brown fox sdfdsf ...</p>
             <p className="font-normal ...">The quick brown fox ...</p>
             <p className="font-medium ...">The quick brown fox ...</p>
             <p className="font-semibold ...">The quick brown fox ...</p>
