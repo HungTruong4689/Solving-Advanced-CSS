@@ -636,6 +636,13 @@ export default function Home() {
                         <span>Technical advisor</span>
                     </div>
                 </div>
+                <div className="flex items-center">
+                    <img src="path/to/image.jpg" />
+                    <div>
+                        <strong>Andrew Alfred 2</strong>
+                        <span>Technical advisor</span>
+                    </div>
+                </div>
                 <p>
                     Today I spent most of the day researching ways to ...
                     <span className="inline-flex items-baseline">
