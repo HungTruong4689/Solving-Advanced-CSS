@@ -706,6 +706,10 @@ export default function Home() {
                     <div className="flex-1 ...">02</div>
                     <div className="flex-1 ...">03</div>
                 </div>
+                <div className="contents">
+                    <div className="flex-1 ...">02</div>
+                    <div className="flex-1 ...">03</div>
+                </div>
                 <div className="flex-1 ...">04</div>
             </div>
             <div className="table w-full ...">
