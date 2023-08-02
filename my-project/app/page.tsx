@@ -796,6 +796,17 @@ export default function Home() {
                     laboris dolor magna pariatur. Dolor et ad sint voluptate
                     sunt elit mollit officia ad enim sit consectetur enim.
                 </p>
+                <p className="line-clamp-3">
+                    Nulla dolor velit adipisicing duis fdsfgdsfsdf excepteur
+                    esse in duis nostrud occaecat mollit incididunt deserunt
+                    sunt. Ut ut sunt laborum ex occaecat eu tempor labore enim
+                    adipisicing minim ad. Est in quis eu dolore occaecat
+                    excepteur fugiat dolore nisi aliqua fugiat enim ut cillum.
+                    Labore enim duis nostrud eu. Est ut eiusmod consequat irure
+                    quis deserunt ex. Enim laboris dolor magna pariatur. Dolor
+                    et ad sint voluptate sunt elit mollit officia ad enim sit
+                    consectetur enim.
+                </p>
                 <div>
                     <img src="..." />
                     Lindsay Walton
