@@ -655,6 +655,18 @@ export default function Home() {
                     </span>
                     keeps telling me there is no way to make it work, that ...
                 </p>
+                <p>
+                    Today I spent most moset of the day researching ways to ...
+                    <span className="inline-flex items-baseline">
+                        <img
+                            src="path/to/image.jpg"
+                            alt=""
+                            className="self-center w-5 h-5 rounded-full mx-1"
+                        />
+                        <span>Kramer</span>
+                    </span>
+                    keeps telling me there is no way to make it work, that ...
+                </p>
                 <span className="inline-grid grid-cols-3 gap-4">
                     <span>01</span>
                     <span>02</span>
