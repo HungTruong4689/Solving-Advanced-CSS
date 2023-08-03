@@ -599,6 +599,9 @@ export default function Home() {
             <p className="text-justify ...">
                 So I started to walk into the water...
             </p>
+            <p className="text-justify ...">
+                So I started to walk into the water...
+            </p>
             <p className="text-sm ...">The quick brown fox ...</p>
             <p className="font-mono ...">The quick brown fox ...</p>
             <p className="font-sans ...">The quick brown fox ...</p>
