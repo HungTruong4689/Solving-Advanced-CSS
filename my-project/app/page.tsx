@@ -426,6 +426,11 @@ export default function Home() {
                 <div className="py-12">02</div>
                 <div className="py-8">03</div>
             </div>
+            <div className="flex items-end ...">
+                <div className="py-4">01</div>
+                <div className="py-12">02</div>
+                <div className="py-8">03</div>
+            </div>
             <div className="flex items-baseline ...">
                 <div className="pt-2 pb-6">01</div>
                 <div className="pt-8 pb-12">02</div>
