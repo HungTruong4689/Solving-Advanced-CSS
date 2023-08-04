@@ -615,6 +615,7 @@ export default function Home() {
                 So I started to walk into the water...
             </p>
             <p className="font-mono ...">The quick brown fox ...</p>
+            <p className="font-sans ...">The quick brown fox ...</p>
             <p className="text-base/7 ...">
                 So I started to walk into the water...
             </p>
