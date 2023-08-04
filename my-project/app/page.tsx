@@ -644,6 +644,7 @@ export default function Home() {
             <p className="ordinal ...">1st</p>
             <p className="slashed-zero ...">0</p>
             <p className="lining-nums ...">1234567890</p>
+            <p className="lining-nums ...">1234567890</p>
             <p className="oldstyle-nums ...">1234567890</p>
             <p className="proportional-nums ...">12121</p>
             <p className="tabular-nums ...">12121</p>
