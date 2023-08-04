@@ -634,6 +634,7 @@ export default function Home() {
             <p className="antialiased ...">The quick brown fox ...</p>
             <p className="italic ...">The quick brown fox ...</p>
             <p className="font-light ...">The quick brown fox ...</p>
+            <p className="font-light ...">The quick brown fox ...</p>
             <p className="font-normal ...">The quick brown fox ...</p>
             <p className="font-medium ...">The quick brown fox ...</p>
             <p className="font-semibold ...">The quick brown fox ...</p>
