@@ -617,6 +617,7 @@ export default function Home() {
             <p className="font-mono ...">The quick brown fox ...</p>
             <p className="font-sans ...">The quick brown fox ...</p>
             <p className="font-serif ...">The quick brown fox ...</p>
+            <p className="text-base ...">The quick brown fox ...</p>
             <p className="text-base/7 ...">
                 So I started to walk into the water...
             </p>
