@@ -217,6 +217,13 @@ export default function Home() {
                         <div className="table-cell ...">1961</div>
                     </div>
                     <div className="table-row">
+                        <div className="table-cell ...">
+                            The Sliding Mr. Bones (Next Stop, Pottersville)
+                        </div>
+                        <div className="table-cell ...">Malcolm Lockyer</div>
+                        <div className="table-cell ...">1961</div>
+                    </div>
+                    <div className="table-row">
                         <div className="table-cell ...">Witchy Woman</div>
                         <div className="table-cell ...">The Eagles</div>
                         <div className="table-cell ...">1972</div>
