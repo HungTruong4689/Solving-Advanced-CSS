@@ -101,6 +101,9 @@ export default function Home() {
             <div className="bg-yellow-300">
                 <img className="object-none h-48 w-96 ..." />
             </div>
+            <div className="bg-yellow-300">
+                <img className="object-none h-48 w-96 ..." />
+            </div>
             <p className="text-left ...">
                 So I started to walk into the water...
             </p>
