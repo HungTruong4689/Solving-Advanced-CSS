@@ -139,6 +139,9 @@ export default function Home() {
             <div className="box-border h-32 w-32 p-4 border-4 ...">
                 Box Sizing
             </div>
+            <div className="box-border h-32 w-32 p-4 border-4 ...">
+                Box Sizing
+            </div>
             <div className="box-content h-32 w-32 p-4 border-4 ...">
                 Box Content
             </div>
