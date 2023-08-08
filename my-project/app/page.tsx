@@ -561,6 +561,11 @@ export default function Home() {
                 <div className="pt-8 pb-12">02</div>
                 <div className="pt-12 pb-4">03</div>
             </div>
+            <div className="flex items-baseline ...">
+                <div className="pt-2 pb-6">01</div>
+                <div className="pt-8 pb-12">02</div>
+                <div className="pt-12 pb-4">03</div>
+            </div>
             <div className="flex items-stretch ...">
                 <div>01</div>
                 <div className="self-auto ...">02</div>
