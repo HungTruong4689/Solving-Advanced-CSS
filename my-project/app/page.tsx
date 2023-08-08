@@ -692,6 +692,12 @@ export default function Home() {
                 <div>03</div>
                 <div>04</div>
             </div>
+            <div className="grid grid-cols-2 gap-4 place-content-around h-48 ...">
+                <div>01</div>
+                <div>02</div>
+                <div>03</div>
+                <div>04</div>
+            </div>
             <div className="grid grid-cols-2 gap-4 place-content-evenly h-48 ...">
                 <div>01</div>
                 <div>02</div>
