@@ -870,7 +870,9 @@ export default function Home() {
                 <div className="p-4">
                     <div className="flow-root ...">
                         <div className="my-4 ...">
-                            Well, let me tell you something, ...
+                            Use flow-root to create a block-level element with
+                            its own block formatting context. Well, let me tell
+                            you something, ...
                         </div>
                     </div>
                     <div className="flow-root ...">
