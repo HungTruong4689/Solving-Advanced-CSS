@@ -716,8 +716,12 @@ export default function Home() {
                 <div>03</div>
                 <div>04</div>
             </div>
+
             <div className="grid grid-cols-3 gap-4 place-items-start ...">
-                <div>01</div>
+                <div>
+                    01 Use place-items-start to place grid items on the start of
+                    their grid areas on both axes:
+                </div>
                 <div>02</div>
                 <div>03</div>
                 <div>04</div>
