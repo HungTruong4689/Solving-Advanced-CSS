@@ -729,7 +729,10 @@ export default function Home() {
                 <div>06</div>
             </div>
             <div className="grid grid-cols-3 gap-4 place-items-end h-56 ...">
-                <div>01</div>
+                <div>
+                    01 Use place-items-end to place grid items on the end of
+                    their grid areas on both axes:
+                </div>
                 <div>02</div>
                 <div>03</div>
                 <div>04</div>
