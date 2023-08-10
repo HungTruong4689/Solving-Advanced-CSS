@@ -906,6 +906,8 @@ export default function Home() {
                 <p>
                     Today I spent most of the day researching ways to ...
                     <span className="inline-flex items-baseline">
+                        Use inline-flex to create an inline flex container that
+                        flows with text.
                         <img
                             src="path/to/image.jpg"
                             alt=""
