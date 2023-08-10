@@ -839,7 +839,7 @@ export default function Home() {
             </p>
             <p className="tracking-normal ...">
                 The quick brown fox ... Control the letter spacing of an element
-                using the tracking-{size} utilities.
+                using the tracking-{size} utilities. letter-spacing: 0em;
             </p>
             <p className="tracking-tight ...">The quick brown fox ...</p>
             <p className="tracking-wide ...">The quick brown fox ...</p>
