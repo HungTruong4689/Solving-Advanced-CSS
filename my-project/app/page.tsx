@@ -920,6 +920,8 @@ export default function Home() {
                 <p>
                     Today I spent most moset of the day researching ways to ...
                     <span className="inline-flex items-baseline">
+                        Use items-baseline to align items along the container’s
+                        cross axis such that all of their baselines align:
                         <img
                             src="path/to/image.jpg"
                             alt=""
