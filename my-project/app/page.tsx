@@ -762,7 +762,8 @@ export default function Home() {
                 <div>06</div>
             </div>
             <p className="text-left ...">
-                So I started to walk into the water...
+                So I started to walk into the water... Control the text
+                alignment of an element using the
             </p>
             <p className="text-left ...">
                 So I started to walk into the water...
