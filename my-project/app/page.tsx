@@ -841,7 +841,9 @@ export default function Home() {
                 The quick brown fox ... Control the letter spacing of an element
                 using the tracking-{size} utilities. letter-spacing: 0em;
             </p>
-            <p className="tracking-tight ...">The quick brown fox ...</p>
+            <p className="tracking-tight ...">
+                The quick brown fox ... letter-spacing: -0.025em;
+            </p>
             <p className="tracking-wide ...">The quick brown fox ...</p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <article>
