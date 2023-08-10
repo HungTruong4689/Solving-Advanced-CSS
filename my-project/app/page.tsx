@@ -844,7 +844,9 @@ export default function Home() {
             <p className="tracking-tight ...">
                 The quick brown fox ... letter-spacing: -0.025em;
             </p>
-            <p className="tracking-wide ...">The quick brown fox ...</p>
+            <p className="tracking-wide ...">
+                The quick brown fox ... letter-spacing: 0.025em;
+            </p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <article>
                     <time>Mar 10, 2020</time>
