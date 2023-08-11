@@ -362,7 +362,10 @@ export default function Home() {
                 <div>05</div>
             </div>
             <div className="h-56 grid grid-cols-3 gap-4 content-center ...">
-                <div>01</div>
+                <div>
+                    01 Use content-center to pack rows in a container in the
+                    center of the cross axis:
+                </div>
                 <div>02</div>
                 <div>03</div>
                 <div>04</div>
