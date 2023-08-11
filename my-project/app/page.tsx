@@ -372,7 +372,10 @@ export default function Home() {
                 <div>05</div>
             </div>
             <div className="h-56 grid grid-cols-3 gap-4 content-end ...">
-                <div>01</div>
+                <div>
+                    01 Use content-end to pack rows in a container against the
+                    end of the cross axis:
+                </div>
                 <div>02</div>
                 <div>03</div>
                 <div>04</div>
