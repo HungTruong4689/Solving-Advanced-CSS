@@ -562,7 +562,11 @@ export default function Home() {
                 <div>03</div>
             </div>
             <div className="flex justify-between ...">
-                <div className="order-last">01</div>
+                <div className="order-last">
+                    01Use justify-between to justify items along the container’s
+                    main axis such that there is an equal amount of space
+                    between each item:
+                </div>
                 <div>02</div>
                 <div>03</div>
             </div>
