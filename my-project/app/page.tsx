@@ -16,7 +16,10 @@ export default function Home() {
                 check the grid version
             </div>
             <div className="flex ...">
-                <div className="flex-1 ...">01</div>
+                <div className="flex-1 ...">
+                    01 Use flex-1 to allow a flex item to grow and shrink as
+                    needed, ignoring its initial size:
+                </div>
                 <div className="contents">
                     <div className="flex-1 ...">02</div>
                     <div className="flex-1 ...">03</div>
