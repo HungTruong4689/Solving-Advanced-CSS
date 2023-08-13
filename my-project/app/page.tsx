@@ -61,7 +61,9 @@ export default function Home() {
             </div>
             <div className="flex ...">
                 <div className="flex-1 h-16 ...">01</div>
-                <div className="shrink-0 h-16 w-32 ...">02</div>
+                <div className="shrink-0 h-16 w-32 ...">
+                    02 Use shrink-0 to prevent a flex item from shrinking:
+                </div>
                 <div className="flex-1 h-16 ...">03</div>
             </div>
             <span className="inline-grid grid-cols-3 gap-4">
