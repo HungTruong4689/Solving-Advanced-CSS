@@ -29,6 +29,11 @@ export default function Home() {
                 </div>
                 <div className="flex-1 ...">04</div>
             </div>
+            <div className="flex ...">
+                <div className="flex-none w-14 h-14 ...">01</div>
+                <div className="flex-none ...">02</div>
+                <div className="flex-1 ...">03</div>
+            </div>
             <span className="inline-grid grid-cols-3 gap-4">
                 <span>01</span>
                 <span>02</span>
