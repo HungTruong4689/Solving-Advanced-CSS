@@ -108,6 +108,14 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div className="flex ...">
+                <div className="flex-1 ...">01</div>
+                <div className="contents">
+                    <div className="flex-1 ...">02</div>
+                    <div className="flex-1 ...">03</div>
+                </div>
+                <div className="flex-1 ...">04</div>
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <p className="clear-left ...">
