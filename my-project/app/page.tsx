@@ -67,7 +67,9 @@ export default function Home() {
                 <div className="flex-1 h-16 ...">03</div>
             </div>
             <span className="inline-grid grid-cols-3 gap-4">
-                <span>01</span>
+                <span>
+                    01: Use inline-grid to create an inline grid container.
+                </span>
                 <span>02</span>
                 <span>03</span>
                 <span>04</span>
