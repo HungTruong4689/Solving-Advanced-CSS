@@ -128,9 +128,11 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
-            <img class="float-right ..." src="path/to/image.jpg" />
+            <img className="float-right ..." src="path/to/image.jpg" />
             <p>
                 Maybe we can live without libraries, people like you and me. ...
+                Use float-right to float an element to the right of its
+                container.
             </p>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
