@@ -142,6 +142,8 @@ export default function Home() {
             <img className="float-none ..." src="path/to/image.jpg" />
             <p>
                 Maybe we can live without libraries, people like you and me. ...
+                Use float-none to reset any floats that are applied to an
+                element. This is the default value for the float property.
             </p>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
