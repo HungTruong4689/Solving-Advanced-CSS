@@ -135,6 +135,10 @@ export default function Home() {
                 container.
             </p>
             <img className="float-left ..." src="path/to/image.jpg" />
+            <p>
+                Maybe we can live without libraries, people like you and me. ...
+            </p>
+            <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <p className="clear-left ...">
                 Maybe we can live without libraries...
