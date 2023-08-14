@@ -139,6 +139,10 @@ export default function Home() {
                 Maybe we can live without libraries, people like you and me. ...
                 Use float-left to float an element to the left of its container.
             </p>
+            <img className="float-none ..." src="path/to/image.jpg" />
+            <p>
+                Maybe we can live without libraries, people like you and me. ...
+            </p>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <p className="clear-left ...">
