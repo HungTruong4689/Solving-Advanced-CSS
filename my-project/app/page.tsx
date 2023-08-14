@@ -109,7 +109,10 @@ export default function Home() {
                 </div>
             </div>
             <div className="flex ...">
-                <div className="flex-1 ...">01</div>
+                <div className="flex-1 ...">
+                    01 : Use contents to create a “phantom” container whose
+                    children act like direct children of the parent.
+                </div>
                 <div className="contents">
                     <div className="flex-1 ...">02</div>
                     <div className="flex-1 ...">03</div>
