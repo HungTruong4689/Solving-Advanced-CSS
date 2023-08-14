@@ -120,7 +120,11 @@ export default function Home() {
                 <div className="flex-1 ...">04</div>
             </div>
             <div className="flex ...">
-                <div className="hidden ...">01</div>
+                <div className="hidden ...">
+                    01: Use hidden to set an element to display: none and remove
+                    it from the page layout (compare with invisible from the
+                    visibility documentation).
+                </div>
                 <div>02</div>
                 <div>03</div>
             </div>
