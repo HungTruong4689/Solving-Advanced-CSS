@@ -147,6 +147,10 @@ export default function Home() {
             </p>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
+            <img
+                className="float-right hover:float-left"
+                src="path/to/image.jpg"
+            ></img>
             <p className="clear-left ...">
                 Maybe we can live without libraries...
             </p>
