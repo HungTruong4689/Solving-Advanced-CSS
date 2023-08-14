@@ -128,6 +128,10 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
+            <img class="float-right ..." src="path/to/image.jpg" />
+            <p>
+                Maybe we can live without libraries, people like you and me. ...
+            </p>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <p className="clear-left ...">
