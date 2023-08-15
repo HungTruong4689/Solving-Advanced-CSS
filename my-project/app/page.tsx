@@ -151,6 +151,8 @@ export default function Home() {
                 <img className="object-cover h-48 w-96 ..." />
             </div>
             <div className="bg-purple-300 ...">
+                Resize an element’s content to stay contained within its
+                container using object-contain.
                 <img className="object-contain h-48 w-96 ..." />
             </div>
             <img className="float-left ..." src="path/to/image.jpg" />
