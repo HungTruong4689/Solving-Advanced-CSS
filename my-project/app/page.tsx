@@ -145,6 +145,9 @@ export default function Home() {
                 Use float-none to reset any floats that are applied to an
                 element. This is the default value for the float property.
             </p>
+            <div className="bg-indigo-300 ...">
+                <img className="object-cover h-48 w-96 ..." />
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
