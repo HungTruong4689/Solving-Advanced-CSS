@@ -155,6 +155,9 @@ export default function Home() {
                 container using object-contain.
                 <img className="object-contain h-48 w-96 ..." />
             </div>
+            <div className="bg-sky-300 ...">
+                <img className="object-fill h-48 w-96 ..." />
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
