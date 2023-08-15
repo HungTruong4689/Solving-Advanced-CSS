@@ -160,6 +160,9 @@ export default function Home() {
                 object-fill.
                 <img className="object-fill h-48 w-96 ..." />
             </div>
+            <div className="bg-cyan-300">
+                <img className="object-scale-down h-48 w-96 ..." />
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
