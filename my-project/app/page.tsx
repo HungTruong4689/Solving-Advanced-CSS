@@ -166,6 +166,8 @@ export default function Home() {
                 <img className="object-scale-down h-48 w-96 ..." />
             </div>
             <div className="bg-yellow-300">
+                Display an element’s content at its original size ignoring the
+                container size using object-none.
                 <img className="object-none h-48 w-96 ..." />
             </div>
             <img className="float-left ..." src="path/to/image.jpg" />
