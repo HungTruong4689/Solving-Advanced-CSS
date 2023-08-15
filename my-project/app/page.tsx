@@ -161,6 +161,8 @@ export default function Home() {
                 <img className="object-fill h-48 w-96 ..." />
             </div>
             <div className="bg-cyan-300">
+                Display an element’s content at its original size but scale it
+                down to fit its container if necessary using object-scale-down.
                 <img className="object-scale-down h-48 w-96 ..." />
             </div>
             <img className="float-left ..." src="path/to/image.jpg" />
