@@ -146,6 +146,8 @@ export default function Home() {
                 element. This is the default value for the float property.
             </p>
             <div className="bg-indigo-300 ...">
+                Resize an element’s content to cover its container using
+                object-cover.
                 <img className="object-cover h-48 w-96 ..." />
             </div>
             <img className="float-left ..." src="path/to/image.jpg" />
