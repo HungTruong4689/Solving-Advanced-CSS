@@ -156,6 +156,8 @@ export default function Home() {
                 <img className="object-contain h-48 w-96 ..." />
             </div>
             <div className="bg-sky-300 ...">
+                Stretch an element’s content to fit its container using
+                object-fill.
                 <img className="object-fill h-48 w-96 ..." />
             </div>
             <img className="float-left ..." src="path/to/image.jpg" />
