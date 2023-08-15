@@ -165,6 +165,7 @@ export default function Home() {
                 down to fit its container if necessary using object-scale-down.
                 <img className="object-scale-down h-48 w-96 ..." />
             </div>
+            <div className="overflow-visible ..."></div>
             <div className="bg-yellow-300">
                 Display an element’s content at its original size ignoring the
                 container size using object-none.
