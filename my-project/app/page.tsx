@@ -196,6 +196,7 @@ export default function Home() {
                 show scrollbars unless always-visible scrollbars are disabled by
                 the operating system.
             </div>
+            <div className="overflow-y-scroll ..."></div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
