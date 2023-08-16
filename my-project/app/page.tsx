@@ -179,6 +179,7 @@ export default function Home() {
                 Use overflow-hidden to clip any content within an element that
                 overflows the bounds of that element.
             </div>
+            <div className="overflow-auto ..."></div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
