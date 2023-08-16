@@ -185,7 +185,9 @@ export default function Home() {
                 overflow-scroll, which always shows scrollbars, this utility
                 will only show them if scrolling is necessary.
             </div>
-            <div className="overflow-x-auto ..."></div>
+            <div className="overflow-x-auto ...">
+                Use overflow-x-auto to allow horizontal scrolling if needed.
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
