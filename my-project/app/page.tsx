@@ -179,7 +179,12 @@ export default function Home() {
                 Use overflow-hidden to clip any content within an element that
                 overflows the bounds of that element.
             </div>
-            <div className="overflow-auto ..."></div>
+            <div className="overflow-auto ...">
+                Use overflow-auto to add scrollbars to an element in the event
+                that its content overflows the bounds of that element. Unlike
+                overflow-scroll, which always shows scrollbars, this utility
+                will only show them if scrolling is necessary.
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
