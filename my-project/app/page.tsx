@@ -175,7 +175,10 @@ export default function Home() {
                 container size using object-none.
                 <img className="object-none h-48 w-96 ..." />
             </div>
-            <div className="overflow-hidden ..."></div>
+            <div className="overflow-hidden ...">
+                Use overflow-hidden to clip any content within an element that
+                overflows the bounds of that element.
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
