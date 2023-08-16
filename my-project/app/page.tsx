@@ -191,7 +191,11 @@ export default function Home() {
             <div className="overflow-y-auto h-32 ...">
                 Use overflow-y-auto to allow vertical scrolling if needed.
             </div>
-            <div className="overflow-x-scroll ..."></div>
+            <div className="overflow-x-scroll ...">
+                Use overflow-x-scroll to allow horizontal scrolling and always
+                show scrollbars unless always-visible scrollbars are disabled by
+                the operating system.
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
