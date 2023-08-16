@@ -188,6 +188,7 @@ export default function Home() {
             <div className="overflow-x-auto ...">
                 Use overflow-x-auto to allow horizontal scrolling if needed.
             </div>
+            <div className="overflow-y-auto h-32 ..."></div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
