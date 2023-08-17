@@ -209,7 +209,10 @@ export default function Home() {
                 that support it.
             </div>
             <div className="overscroll-none ...">
-                Well, let me tell you something, ...
+                Well, let me tell you something, ... Use overscroll-none to
+                prevent scrolling in the target area from triggering scrolling
+                in the parent element, and also prevent “bounce” effects when
+                scrolling past the end of the container.
             </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
