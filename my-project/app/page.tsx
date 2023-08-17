@@ -219,7 +219,12 @@ export default function Home() {
                 it possible for the user to continue scrolling a parent scroll
                 area when they reach the boundary of the primary scroll area.
             </div>
-            <div className="overscroll-auto hover:overscroll-contain"></div>
+            <div className="overscroll-auto hover:overscroll-contain">
+                Tailwind lets you conditionally apply utility classes in
+                different states using variant modifiers. For example, use
+                hover:overscroll-contain to only apply the overscroll-contain
+                utility on hover.
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
