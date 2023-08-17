@@ -225,6 +225,12 @@ export default function Home() {
                 hover:overscroll-contain to only apply the overscroll-contain
                 utility on hover.
             </div>
+            <div className="static ...">
+                <p>Static parent</p>
+                <div className="absolute bottom-0 left-0 ...">
+                    <p>Absolute child</p>
+                </div>
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
