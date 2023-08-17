@@ -226,6 +226,8 @@ export default function Home() {
                 utility on hover.
             </div>
             <div className="static ...">
+                Use static to position an element according to the normal flow
+                of the document.
                 <p>Static parent</p>
                 <div className="absolute bottom-0 left-0 ...">
                     <p>Absolute child</p>
