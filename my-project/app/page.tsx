@@ -234,6 +234,8 @@ export default function Home() {
                 </div>
             </div>
             <div className="relative ...">
+                Use relative to position an element according to the normal flow
+                of the document.
                 <p>Relative parent</p>
                 <div className="absolute bottom-0 left-0 ...">
                     <p>Absolute child</p>
