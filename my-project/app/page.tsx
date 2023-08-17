@@ -233,6 +233,12 @@ export default function Home() {
                     <p>Absolute child</p>
                 </div>
             </div>
+            <div className="relative ...">
+                <p>Relative parent</p>
+                <div className="absolute bottom-0 left-0 ...">
+                    <p>Absolute child</p>
+                </div>
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
