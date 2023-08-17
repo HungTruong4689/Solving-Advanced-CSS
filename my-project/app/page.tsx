@@ -219,6 +219,7 @@ export default function Home() {
                 it possible for the user to continue scrolling a parent scroll
                 area when they reach the boundary of the primary scroll area.
             </div>
+            <div className="overscroll-auto hover:overscroll-contain"></div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
