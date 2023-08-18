@@ -241,6 +241,21 @@ export default function Home() {
                     <p>Absolute child</p>
                 </div>
             </div>
+            <div class="static ...">
+                <div className="static ...">
+                    <p>Static child</p>
+                </div>
+                <div className="inline-block ...">
+                    <p>Static sibling</p>
+                </div>
+
+                <div className="absolute ...">
+                    <p>Absolute child</p>
+                </div>
+                <div className="inline-block ...">
+                    <p>Static sibling</p>
+                </div>
+            </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <img
