@@ -260,6 +260,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="relative">
+                Use fixed to position an element relative to the browser window.
                 <div className="fixed top-0 left-0 right-0">Contacts</div>
                 <div>
                     <div>
