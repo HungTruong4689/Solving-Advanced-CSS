@@ -274,6 +274,9 @@ export default function Home() {
                 </div>
             </div>
             <div>
+                Use sticky to position an element as relative until it crosses a
+                specified threshold, then treat it as fixed until its parent is
+                off screen.
                 <div>
                     <div className="sticky top-0 ...">A</div>
                     <div>
