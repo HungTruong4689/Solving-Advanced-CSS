@@ -241,7 +241,7 @@ export default function Home() {
                     <p>Absolute child</p>
                 </div>
             </div>
-            <div class="static ...">
+            <div className="static ...">
                 <div className="static ...">
                     <p>Static child</p>
                 </div>
@@ -251,6 +251,9 @@ export default function Home() {
 
                 <div className="absolute ...">
                     <p>Absolute child</p>
+                    Use absolute to position an element outside of the normal
+                    flow of the document, causing neighboring elements to act as
+                    if the element doesn’t exist.
                 </div>
                 <div className="inline-block ...">
                     <p>Static sibling</p>
