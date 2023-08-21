@@ -310,6 +310,7 @@ export default function Home() {
             <img className="float-right ..." src="path/to/image.jpg" />
 
             <div className="relative h-32 w-32 ...">
+                Pin to top right corner
                 <div className="absolute top-0 right-0 h-16 w-16 ...">03</div>
             </div>
             <img
