@@ -308,6 +308,10 @@ export default function Home() {
             </div>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
+
+            <div className="relative h-32 w-32 ...">
+                <div className="absolute top-0 right-0 h-16 w-16 ...">03</div>
+            </div>
             <img
                 className="float-right hover:float-left"
                 src="path/to/image.jpg"
