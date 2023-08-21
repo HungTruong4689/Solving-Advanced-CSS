@@ -309,6 +309,7 @@ export default function Home() {
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <div className="relative h-32 w-32 ...">
+                Span left edge
                 <div className="absolute inset-y-0 left-0 w-16 ...">04</div>
             </div>
 
