@@ -313,6 +313,7 @@ export default function Home() {
                 <div className="absolute inset-y-0 left-0 w-16 ...">04</div>
             </div>
             <div className="relative h-32 w-32 ...">
+                Fill entire parent
                 <div className="absolute inset-0 ...">05</div>
             </div>
 
