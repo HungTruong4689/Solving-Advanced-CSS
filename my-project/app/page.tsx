@@ -321,6 +321,7 @@ export default function Home() {
                 <div className="absolute inset-y-0 right-0 w-16 ...">06</div>
             </div>
             <div className="relative h-32 w-32 ...">
+                Span bottom edge
                 <div className="absolute inset-x-0 bottom-0 h-16 ...">08</div>
             </div>
             <div className="relative h-32 w-32 ...">
