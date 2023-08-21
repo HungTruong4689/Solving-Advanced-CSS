@@ -316,6 +316,9 @@ export default function Home() {
                 Fill entire parent
                 <div className="absolute inset-0 ...">05</div>
             </div>
+            <div className="relative h-32 w-32 ...">
+                <div className="absolute inset-y-0 right-0 w-16 ...">06</div>
+            </div>
 
             <div className="relative h-32 w-32 ...">
                 Pin to top right corner
