@@ -325,7 +325,9 @@ export default function Home() {
             <div className="border-double border-4 border-sky-500 ...">
                 border-style: double;
             </div>
-            <button className="border-hidden ...">Save Changes</button>
+            <button className="border-hidden ...">
+                Save Changes border-style: hidden;
+            </button>
             <button className="border-none ...">
                 Save Changes border-style: none;
             </button>
