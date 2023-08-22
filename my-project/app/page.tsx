@@ -325,6 +325,8 @@ export default function Home() {
             <div className="border-double border-4 border-sky-500 ...">
                 border-style: double;
             </div>
+
+            <button className="border-none ...">Save Changes</button>
             <div className="relative h-32 w-32 ...">
                 Fill entire parent
                 <div className="absolute inset-0 ...">05</div>
