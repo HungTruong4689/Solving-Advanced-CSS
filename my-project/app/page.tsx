@@ -318,7 +318,10 @@ export default function Home() {
             <div className="border-dashed border-2 border-sky-500 ...">
                 border-style: dashed;
             </div>
-            <div className="border-dotted border-2 border-sky-500 ..."></div>
+            <div className="border-dotted border-2 border-sky-500 ...">
+                {' '}
+                border-style: dotted;
+            </div>
             <div className="relative h-32 w-32 ...">
                 Fill entire parent
                 <div className="absolute inset-0 ...">05</div>
