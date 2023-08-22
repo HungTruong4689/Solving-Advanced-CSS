@@ -322,6 +322,7 @@ export default function Home() {
                 {' '}
                 border-style: dotted;
             </div>
+            <div className="border-double border-4 border-sky-500 ..."></div>
             <div className="relative h-32 w-32 ...">
                 Fill entire parent
                 <div className="absolute inset-0 ...">05</div>
