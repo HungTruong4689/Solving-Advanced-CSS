@@ -312,6 +312,7 @@ export default function Home() {
                 Span left edge
                 <div className="absolute inset-y-0 left-0 w-16 ...">04</div>
             </div>
+            <div className="border-solid border-2 border-sky-500 ..."></div>
             <div className="relative h-32 w-32 ...">
                 Fill entire parent
                 <div className="absolute inset-0 ...">05</div>
