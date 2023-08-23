@@ -339,6 +339,7 @@ export default function Home() {
                 <div>03</div>
             </div>
             <div className="grid grid-cols-3 divide-x-2 ">
+                border-right-width: 0px; border-left-width: 2px;
                 <div>01</div>
                 <div>02</div>
                 <div>03</div>
