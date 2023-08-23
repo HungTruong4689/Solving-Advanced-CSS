@@ -356,6 +356,11 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
+            <div className="grid grid-cols-3 divide-y-0 ">
+                <div>01</div>
+                <div>02</div>
+                <div>03</div>
+            </div>
             <button className="border-hidden ...">
                 Save Changes border-style: hidden;
             </button>
