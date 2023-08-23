@@ -325,6 +325,11 @@ export default function Home() {
             <div className="border-double border-4 border-sky-500 ...">
                 border-style: double;
             </div>
+            <div className="grid grid-cols-3 divide-x">
+                <div>01</div>
+                <div>02</div>
+                <div>03</div>
+            </div>
             <button className="border-hidden ...">
                 Save Changes border-style: hidden;
             </button>
