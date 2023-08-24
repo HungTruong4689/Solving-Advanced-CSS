@@ -377,7 +377,11 @@ export default function Home() {
             <button className="outline outline-offset-2 outline-8 ...">
                 Button E outline-width: 0px;
             </button>
-            <div className="outline hover:outline-2">Button F</div>
+            <div className="outline hover:outline-2">
+                Button F Tailwind lets you conditionally apply utility classes
+                in different states using variant modifiers. For example, use
+                hover:outline-2 to only apply the outline-2 utility on hover.
+            </div>
 
             <button className="border-hidden ...">
                 Save Changes border-style: hidden;
