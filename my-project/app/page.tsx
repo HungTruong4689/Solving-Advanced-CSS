@@ -369,7 +369,7 @@ export default function Home() {
                 Button B outline-width: 2px;
             </button>
             <button className="outline outline-offset-2 outline-4 ...">
-                Button C
+                Button C outline-width: 4px;
             </button>
 
             <button className="border-hidden ...">
