@@ -377,6 +377,7 @@ export default function Home() {
             <button className="outline outline-offset-2 outline-8 ...">
                 Button E outline-width: 0px;
             </button>
+            <div className="outline hover:outline-2">Button F</div>
 
             <button className="border-hidden ...">
                 Save Changes border-style: hidden;
