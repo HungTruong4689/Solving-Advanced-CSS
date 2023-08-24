@@ -362,6 +362,10 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
+            <button className="outline outline-offset-2 outline-1 ...">
+                Button A
+            </button>
+
             <button className="border-hidden ...">
                 Save Changes border-style: hidden;
             </button>
