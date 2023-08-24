@@ -371,6 +371,9 @@ export default function Home() {
             <button className="outline outline-offset-2 outline-4 ...">
                 Button C outline-width: 4px;
             </button>
+            <button className="outline outline-offset-2 outline-0 ...">
+                Button D outline-width: 4px;
+            </button>
 
             <button className="border-hidden ...">
                 Save Changes border-style: hidden;
