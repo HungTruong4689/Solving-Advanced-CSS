@@ -816,7 +816,7 @@ export default function Home() {
                 <div>05</div>
             </div>
             <div className="grid grid-flow-row auto-rows-max">
-                <div>01</div>
+                <div>01 auto-rows-max</div>
                 <div>02</div>
                 <div>03</div>
             </div>
