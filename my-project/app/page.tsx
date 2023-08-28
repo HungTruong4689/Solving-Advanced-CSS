@@ -648,6 +648,9 @@ export default function Home() {
                 <div className="inline-block ...">
                     <p>Static sibling</p>
                 </div>
+                <div className="inline-block ...">
+                    <p>Static sibling</p>
+                </div>
             </div>
             <div className="flex flex-row">
                 <div className="basis-1/4">01</div>
