@@ -810,7 +810,7 @@ export default function Home() {
             </div>
             <div className="h-56 grid grid-cols-3 gap-4 content-stretch ...">
                 <div>01 align-content: space-around;</div>
-                <div>02</div>
+                <div>02 content-stretch</div>
                 <div>03</div>
                 <div>04</div>
                 <div>05</div>
