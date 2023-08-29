@@ -61,6 +61,8 @@ export default function Home() {
                 elements.
             </div>
             <div className="p-4">
+                Use flow-root to create a block-level element with its own block
+                formatting context.
                 <div className="flow-root ...">
                     <div className="my-4 ...">
                         Well, let me tell you something, ...
