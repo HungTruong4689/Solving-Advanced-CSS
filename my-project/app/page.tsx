@@ -61,6 +61,7 @@ export default function Home() {
                 elements.
             </div>
             <div className="flex items-center">
+                Use flex to create a block-level flex container.
                 <img src="path/to/image.jpg" />
                 <div>
                     <strong>Andrew Alfred</strong>
