@@ -60,6 +60,13 @@ export default function Home() {
                 inline, inline-block, and block to control the flow of text and
                 elements.
             </div>
+            <div className="flex items-center">
+                <img src="path/to/image.jpg" />
+                <div>
+                    <strong>Andrew Alfred</strong>
+                    <span>Technical advisor</span>
+                </div>
+            </div>
             <div className="p-4">
                 Use flow-root to create a block-level element with its own block
                 formatting context.
