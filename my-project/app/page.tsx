@@ -24,7 +24,9 @@ export default function Home() {
                     <div className="flex-1 ...">02</div>
                     <div className="flex-auto ...">
                         03Use flex-auto to allow a flex item to grow and shrink,
-                        taking into account its initial size:
+                        taking into account its initial size: Use flex-auto to
+                        allow a flex item to grow and shrink, taking into
+                        account its initial size:
                     </div>
                 </div>
                 <div className="flex-1 ...">04</div>
