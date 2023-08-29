@@ -60,6 +60,18 @@ export default function Home() {
                 inline, inline-block, and block to control the flow of text and
                 elements.
             </div>
+            <div className="p-4">
+                <div className="flow-root ...">
+                    <div className="my-4 ...">
+                        Well, let me tell you something, ...
+                    </div>
+                </div>
+                <div className="flow-root ...">
+                    <div className="my-4 ...">
+                        Sure, go ahead, laugh if you want...
+                    </div>
+                </div>
+            </div>
             <div className="flex ...">
                 <div className="flex-none w-14 h-14 ...">01</div>
                 <div className="grow h-14 ...">
