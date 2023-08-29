@@ -56,7 +56,9 @@ export default function Home() {
                 will wrap the element to prevent the text inside from extending
                 beyond its parent. Lastly, using the property{' '}
                 <span className="block">display: block</span>
-                will put the element on its own line and fill its parent.
+                will put the element on its own line and fill its parent. Use
+                inline, inline-block, and block to control the flow of text and
+                elements.
             </div>
             <div className="flex ...">
                 <div className="flex-none w-14 h-14 ...">01</div>
