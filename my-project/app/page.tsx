@@ -47,6 +47,12 @@ export default function Home() {
                 <div className="basis-1/4">02</div>
                 <div className="basis-1/2">03</div>
             </div>
+            <div>
+                When controlling the flow of text, using the CSS property
+                <span className="inline">display: inline</span>
+                will cause the text inside the element to wrap normally. While
+                using the property{' '}
+            </div>
             <div className="flex ...">
                 <div className="flex-none w-14 h-14 ...">01</div>
                 <div className="grow h-14 ...">
