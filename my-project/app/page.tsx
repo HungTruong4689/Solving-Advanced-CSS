@@ -104,7 +104,12 @@ export default function Home() {
                 be rendered as if the element were one continuous fragment, or
                 distinct blocks.
             </span>
-            <div className="box-decoration-clone hover:box-decoration-slice"></div>
+            <div className="box-decoration-clone hover:box-decoration-slice">
+                Tailwind lets you conditionally apply utility classes in
+                different states using variant modifiers. For example, use
+                hover:box-decoration-slice to only apply the
+                box-decoration-slice utility on hover.
+            </div>
             <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                 Hello
                 <br />
