@@ -100,6 +100,11 @@ export default function Home() {
                 <br />
                 World
             </span>
+            <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
+                Hello
+                <br />
+                World
+            </span>
             <div className="flex ...">
                 <div className="flex-none w-14 h-14 ...">01</div>
                 <div className="grow h-14 ...">
