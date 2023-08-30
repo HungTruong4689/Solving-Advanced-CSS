@@ -98,7 +98,11 @@ export default function Home() {
             <span className="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                 Hello
                 <br />
-                World
+                World Use the box-decoration-slice and box-decoration-clone
+                utilities to control whether properties like background, border,
+                border-image, box-shadow, clip-page, margin, and padding should
+                be rendered as if the element were one continuous fragment, or
+                distinct blocks.
             </span>
             <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                 Hello
