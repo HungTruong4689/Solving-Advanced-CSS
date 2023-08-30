@@ -117,7 +117,11 @@ export default function Home() {
                 box-decoration-slice utility at only medium screen sizes and
                 above.
             </div>
-            <div className="box-border h-32 w-32 p-4 border-4 ..."></div>
+            <div className="box-border h-32 w-32 p-4 border-4 ...">
+                Use box-border to set an element’s box-sizing to border-box,
+                telling the browser to include the element’s borders and padding
+                when you give it a height or width.
+            </div>
             <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                 Hello
                 <br />
