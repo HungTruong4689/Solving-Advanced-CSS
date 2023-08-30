@@ -127,6 +127,7 @@ export default function Home() {
                 telling the browser to add borders and padding on top of the
                 element’s specified width or height.
             </div>
+            <div className="box-border hover:box-content"></div>
             <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                 Hello
                 <br />
