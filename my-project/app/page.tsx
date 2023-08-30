@@ -122,7 +122,11 @@ export default function Home() {
                 telling the browser to include the element’s borders and padding
                 when you give it a height or width.
             </div>
-            <div className="box-content h-32 w-32 p-4 border-4 ..."></div>
+            <div className="box-content h-32 w-32 p-4 border-4 ...">
+                Use box-content to set an element’s box-sizing to content-box,
+                telling the browser to add borders and padding on top of the
+                element’s specified width or height.
+            </div>
             <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                 Hello
                 <br />
