@@ -104,6 +104,7 @@ export default function Home() {
                 be rendered as if the element were one continuous fragment, or
                 distinct blocks.
             </span>
+            <div className="box-decoration-clone hover:box-decoration-slice"></div>
             <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2 ...">
                 Hello
                 <br />
