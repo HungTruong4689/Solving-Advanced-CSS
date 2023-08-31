@@ -369,6 +369,20 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div className="relative">
+                Use fixed to position an element relative to the browser window.
+                <div className="fixed top-0 left-0 right-0">Contacts</div>
+                <div>
+                    <div>
+                        <img src="..." />
+                        <strong>Andrew Alfred</strong>
+                    </div>
+                    <div>
+                        <img src="..." />
+                        <strong>Debra Houston</strong>
+                    </div>
+                </div>
+            </div>
             <div>
                 Use sticky to position an element as relative until it crosses a
                 specified threshold, then treat it as fixed until its parent is
