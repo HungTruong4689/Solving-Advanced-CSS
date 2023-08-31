@@ -445,7 +445,7 @@ export default function Home() {
             </div>
             <div className="border-dotted border-2 border-sky-500 ...">
                 {' '}
-                border-style: dotted;
+                border-style: dotted;border-style: dotted;
             </div>
             <div className="border-double border-4 border-sky-500 ...">
                 border-style: double;
