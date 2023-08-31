@@ -450,6 +450,9 @@ export default function Home() {
             <div className="border-double border-4 border-sky-500 ...">
                 border-style: double;
             </div>
+            <div className="border-double border-4 border-sky-500 ...">
+                border-style: double;
+            </div>
             <div className="grid grid-cols-3 divide-x">
                 Add borders between horizontal elements using the divide-x-
                 utilities.
