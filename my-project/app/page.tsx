@@ -430,6 +430,9 @@ export default function Home() {
             <div className="border-solid border-2 border-sky-500 ...">
                 border-style: solid;
             </div>
+            <div className="border-solid border-2 border-sky-500 ...">
+                border-style: solid;
+            </div>
             <div className="border-dashed border-2 border-sky-500 ...">
                 border-style: dashed;
             </div>
