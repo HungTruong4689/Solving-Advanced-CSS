@@ -459,6 +459,8 @@ export default function Home() {
                 <div>01</div>
                 <div>02</div>
                 <div>03</div>
+                Add borders between horizontal elements using the divide-x-
+                utilities.
             </div>
             <div className="grid grid-cols-3 divide-x-0 ">
                 border-right-width: 0px; border-left-width: 0px;
