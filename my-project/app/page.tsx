@@ -416,6 +416,9 @@ export default function Home() {
                 <div className="absolute inset-x-0 top-0 h-16 ...">02</div>
             </div>
             <div className="relative h-32 w-32 ...">
+                <div className="absolute inset-x-0 top-0 h-16 ...">02</div>
+            </div>
+            <div className="relative h-32 w-32 ...">
                 <div className="absolute left-0 top-0 h-16 w-16 ...">01</div>
             </div>
             <img className="float-left ..." src="path/to/image.jpg" />
