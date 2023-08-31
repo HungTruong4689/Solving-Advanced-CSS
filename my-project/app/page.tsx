@@ -436,6 +436,9 @@ export default function Home() {
             <div className="border-dashed border-2 border-sky-500 ...">
                 border-style: dashed;
             </div>
+            <div className="border-dashed border-2 border-sky-500 ...">
+                border-style: dashed;
+            </div>
             <div className="border-dotted border-2 border-sky-500 ...">
                 {' '}
                 border-style: dotted;
