@@ -573,7 +573,8 @@ export default function Home() {
                 Maybe we can live without libraries...
             </p>
             <p className="clear-both ...">
-                Maybe we can live without libraries...
+                Maybe we can live without libraries... Maybe we can live without
+                libraries...
             </p>
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
