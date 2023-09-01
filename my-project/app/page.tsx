@@ -516,6 +516,9 @@ export default function Home() {
             <button className="border-hidden ...">
                 Save Changes border-style: hidden;
             </button>
+            <button className="border-hidden ...">
+                Save Changes border-style: hidden;
+            </button>
             <button className="border-none ...">
                 Save Changes border-style: none;
             </button>
