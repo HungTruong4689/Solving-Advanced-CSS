@@ -534,6 +534,7 @@ export default function Home() {
             <div className="relative h-32 w-32 ...">
                 Fill entire parent
                 <div className="absolute inset-0 ...">05</div>
+                <div className="absolute inset-0 ...">05</div>
             </div>
             <div className="relative h-32 w-32 ...">
                 Span right edge
