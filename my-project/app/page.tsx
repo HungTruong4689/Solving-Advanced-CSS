@@ -581,6 +581,9 @@ export default function Home() {
             <p className="clear-none ...">
                 Maybe we can live without libraries...
             </p>
+            <p className="clear-none ...">
+                Maybe we can live without libraries...
+            </p>
             <div className="bg-indigo-300 ...">
                 <img className="object-cover h-48 w-96 ..." />
             </div>
