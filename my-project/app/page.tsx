@@ -567,6 +567,7 @@ export default function Home() {
             </p>
             <div className="overflow-visible ..."></div>
             <img className="float-left ..." src="path/to/image.jpg" />
+            <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <p className="clear-both ...">
                 Maybe we can live without libraries...
