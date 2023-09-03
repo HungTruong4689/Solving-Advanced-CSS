@@ -715,6 +715,7 @@ export default function Home() {
                         </div>
                         <div className="table-cell ...">Malcolm Lockyer</div>
                         <div className="table-cell ...">1961</div>
+                        <div className="table-cell ...">1961</div>
                     </div>
                     <div className="table-row">
                         <div className="table-cell ...">
