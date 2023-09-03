@@ -629,6 +629,9 @@ export default function Home() {
             <p className="text-left ...">
                 So I started to walk into the water...
             </p>
+            <p className="text-left ...">
+                So I started to walk into the water...
+            </p>
             <div>
                 When controlling the flow of text, using the CSS property
                 <span className="inline">display: inline</span>
