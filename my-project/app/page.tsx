@@ -781,6 +781,7 @@ export default function Home() {
                 it possible for the user to continue scrolling a parent scroll
                 area when they reach the boundary of the primary scroll area.
             </div>
+            <div className="overflow-visible ...">Visible</div>
             <div className="overscroll-none ...">
                 Well, let me tell you something, ... Use overscroll-none to
                 prevent scrolling in the target area from triggering scrolling
