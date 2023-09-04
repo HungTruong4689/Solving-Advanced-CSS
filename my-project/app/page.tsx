@@ -757,7 +757,11 @@ export default function Home() {
                 Well, let me tell you something, ...
             </div>
             <div className="overscroll-contain ...">
-                Well, let me tell you something, ...
+                Well, let me tell you something, ... Use overscroll-contain to
+                prevent scrolling in the target area from triggering scrolling
+                in the parent element, but preserve “bounce” effects when
+                scrolling past the end of the container in operating systems
+                that support it.
             </div>
             <div className="overscroll-contain ...">
                 Well, let me tell you something, ... overscroll-behavior:
