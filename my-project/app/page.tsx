@@ -776,6 +776,9 @@ export default function Home() {
             <div className="overscroll-auto ...">
                 Well, let me tell you something, ...
             </div>
+            <div className="overscroll-none ...">
+                Well, let me tell you something, ...
+            </div>
             <img className="float-right ..." src="path/to/image.jpg" />
             <div className="bg-indigo-300 ...">
                 <img className="object-cover h-48 w-96 ..." />
