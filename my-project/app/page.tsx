@@ -776,6 +776,9 @@ export default function Home() {
             <div className="overscroll-auto ...">
                 Well, let me tell you something, ...
             </div>
+            <div className="overscroll-auto ...">
+                Well, let me tell you something, ...
+            </div>
             <div className="overscroll-none ...">
                 Well, let me tell you something, ... Use overscroll-none to
                 prevent scrolling in the target area from triggering scrolling
