@@ -760,7 +760,8 @@ export default function Home() {
                 Well, let me tell you something, ...
             </div>
             <div className="overscroll-contain ...">
-                Well, let me tell you something, ...
+                Well, let me tell you something, ... overscroll-behavior:
+                contain;
             </div>
             <div className="overscroll-auto ...">
                 Well, let me tell you something, ...
