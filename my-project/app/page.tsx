@@ -793,6 +793,7 @@ export default function Home() {
                 scrolling past the end of the container.
             </div>
             <img className="float-right ..." src="path/to/image.jpg" />
+            <img className="float-right ..." src="path/to/image.jpg" />
             <div className="bg-indigo-300 ...">
                 <img className="object-cover h-48 w-96 ..." />
             </div>
