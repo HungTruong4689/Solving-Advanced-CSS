@@ -777,7 +777,9 @@ export default function Home() {
                 Well, let me tell you something, ...
             </div>
             <div className="overscroll-auto ...">
-                Well, let me tell you something, ...
+                Well, let me tell you something, ... Use overscroll-auto to make
+                it possible for the user to continue scrolling a parent scroll
+                area when they reach the boundary of the primary scroll area.
             </div>
             <div className="overscroll-none ...">
                 Well, let me tell you something, ... Use overscroll-none to
