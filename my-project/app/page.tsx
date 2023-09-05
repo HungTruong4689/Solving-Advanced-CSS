@@ -809,6 +809,8 @@ export default function Home() {
             </div>
             <div className="bg-sky-300 ...">
                 <img className="object-fill h-48 w-96 ..." />
+                Stretch an element’s content to fit its container using
+                object-fill.
             </div>
             <div className="bg-indigo-300 ...">
                 <img className="object-cover h-48 w-96 ..." />
