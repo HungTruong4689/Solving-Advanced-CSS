@@ -817,6 +817,9 @@ export default function Home() {
                 Display an element’s content at its original size but scale it
                 down to fit its container if necessary using object-scale-down.
             </div>
+            <div className="bg-yellow-300">
+                <img className="object-none h-48 w-96 ..." />
+            </div>
             <div className="bg-indigo-300 ...">
                 <img className="object-cover h-48 w-96 ..." />
             </div>
