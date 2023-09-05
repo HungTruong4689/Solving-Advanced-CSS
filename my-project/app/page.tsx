@@ -823,6 +823,10 @@ export default function Home() {
                 <img className="object-none h-48 w-96 ..." />
             </div>
             <div className="bg-indigo-300 ...">
+                Tailwind lets you conditionally apply utility classes in
+                different states using variant modifiers. For example, use
+                hover:object-scale-down to only apply the object-scale-down
+                utility on hover.
                 <img className="object-cover h-48 w-96 ..." />
             </div>
             <div className="static ...">
