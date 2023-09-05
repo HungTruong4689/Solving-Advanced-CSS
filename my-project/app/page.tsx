@@ -807,6 +807,9 @@ export default function Home() {
                 Resize an element’s content to stay contained within its
                 container using object-contain.
             </div>
+            <div className="bg-sky-300 ...">
+                <img className="object-fill h-48 w-96 ..." />
+            </div>
             <div className="bg-indigo-300 ...">
                 <img className="object-cover h-48 w-96 ..." />
             </div>
