@@ -946,6 +946,11 @@ export default function Home() {
                 <div>02</div>
                 <div>03</div>
             </div>
+            <div className="flex ...">
+                <div className="grow h-14 ...">01</div>
+                <div className="grow-0 h-14 ...">02</div>
+                <div className="grow h-14 ...">03</div>
+            </div>
             <div className="flex flex-nowrap">
                 <div>01</div>
                 <div>02</div>
