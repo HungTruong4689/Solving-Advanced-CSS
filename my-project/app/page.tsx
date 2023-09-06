@@ -947,6 +947,7 @@ export default function Home() {
                 <div>03</div>
             </div>
             <div className="flex ...">
+                Use grow-0 to prevent a flex item from growing:
                 <div className="grow h-14 ...">01</div>
                 <div className="grow-0 h-14 ...">02</div>
                 <div className="grow h-14 ...">03</div>
