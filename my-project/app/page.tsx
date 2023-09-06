@@ -928,6 +928,8 @@ export default function Home() {
                 <div>03</div>
             </div>
             <div className="flex flex-wrap-reverse">
+                Use flex-wrap-reverse to wrap flex items in the reverse
+                direction:
                 <div>01</div>
                 <div>02</div>
                 <div>03</div>
