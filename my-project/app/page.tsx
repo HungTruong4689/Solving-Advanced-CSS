@@ -1135,6 +1135,8 @@ export default function Home() {
                 <div>05</div>
             </div>
             <div className="h-56 grid grid-cols-3 gap-4 content-stretch ...">
+                Use the grid-cols-{n} utilities to create grids with n equally
+                sized columns.
                 <div>01</div>
                 <div>02</div>
                 <div>03</div>
