@@ -1160,6 +1160,11 @@ export default function Home() {
                 <div className="...">06</div>
                 <div className="col-span-2 ...">07</div>
             </div>
+            <div className="grid grid-rows-4 grid-flow-col gap-4">
+                <div>01</div>
+
+                <div>09</div>
+            </div>
             <div className="grid grid-cols-6 gap-4">
                 Use the col-start-{n} and col-end-{n} utilities to make an
                 element start or end at the nth grid line. These can also be
