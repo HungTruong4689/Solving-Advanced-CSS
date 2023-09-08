@@ -1161,6 +1161,10 @@ export default function Home() {
                 <div className="col-span-2 ...">07</div>
             </div>
             <div className="grid grid-cols-6 gap-4">
+                Use the col-start-{n} and col-end-{n} utilities to make an
+                element start or end at the nth grid line. These can also be
+                combined with the col-span-{n} utilities to span a specific
+                number of columns.
                 <div className="col-start-2 col-span-4 ...">01</div>
                 <div className="col-start-1 col-end-3 ...">02</div>
                 <div className="col-end-7 col-span-2 ...">03</div>
