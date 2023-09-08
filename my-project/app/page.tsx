@@ -1143,6 +1143,7 @@ export default function Home() {
                 <div>04</div>
                 <div>05</div>
             </div>
+            <div className="grid grid-cols-1 hover:grid-cols-6">HOver</div>
             <div className="h-56 grid grid-cols-3 gap-4 content-normal ...">
                 <div>01</div>
                 <div>02</div>
