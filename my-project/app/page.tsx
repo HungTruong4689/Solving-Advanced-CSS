@@ -1166,6 +1166,7 @@ export default function Home() {
                 sized rows.
                 <div>09</div>
             </div>
+            <div className="grid grid-rows-2 hover:grid-rows-6"></div>
             <div className="grid grid-cols-6 gap-4">
                 Use the col-start-{n} and col-end-{n} utilities to make an
                 element start or end at the nth grid line. These can also be
