@@ -1149,6 +1149,15 @@ export default function Home() {
                 hover:grid-cols-6 to only apply the grid-cols-6 utility on
                 hover.
             </div>
+            <div className="grid grid-cols-3 gap-4">
+                <div className="...">01</div>
+                <div className="...">02</div>
+                <div className="...">03</div>
+                <div className="col-span-2 ...">04</div>
+                <div className="...">05</div>
+                <div className="...">06</div>
+                <div className="col-span-2 ...">07</div>
+            </div>
             <div className="h-56 grid grid-cols-3 gap-4 content-normal ...">
                 <div>01</div>
                 <div>02</div>
