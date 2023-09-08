@@ -1150,6 +1150,8 @@ export default function Home() {
                 hover.
             </div>
             <div className="grid grid-cols-3 gap-4">
+                Use the col-span-{n} utilities to make an element span n
+                columns.
                 <div className="...">01</div>
                 <div className="...">02</div>
                 <div className="...">03</div>
