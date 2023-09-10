@@ -1221,6 +1221,8 @@ export default function Home() {
                 <div className="py-8">03</div>
             </div>
             <div className="flex items-stretch ...">
+                Use items-stretch to stretch items to fill the container’s cross
+                axis:
                 <div className="py-4">01</div>
                 <div className="py-12">02</div>
                 <div className="py-8">03</div>
