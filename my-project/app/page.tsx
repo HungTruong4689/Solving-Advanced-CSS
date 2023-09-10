@@ -1228,6 +1228,8 @@ export default function Home() {
                 <div className="py-8">03</div>
             </div>
             <div className="flex items-start ...">
+                Use items-start to align items to the start of the container’s
+                cross axis:
                 <div className="py-4">01</div>
                 <div className="py-12">02</div>
                 <div className="py-8">03</div>
