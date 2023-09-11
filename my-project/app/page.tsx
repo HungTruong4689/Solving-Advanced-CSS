@@ -1272,6 +1272,8 @@ export default function Home() {
                 <div className="py-8">03</div>
             </div>
             <div className="flex items-baseline ...">
+                Use items-baseline to align items along the container’s cross
+                axis such that all of their baselines align:
                 <div className="pt-2 pb-6">01</div>
                 <div className="pt-8 pb-12">02</div>
                 <div className="pt-12 pb-4">03</div>
