@@ -1265,6 +1265,8 @@ export default function Home() {
                 <div>03</div>
             </div>
             <div className="flex items-end ...">
+                Use items-end to align items to the end of the container’s cross
+                axis:
                 <div className="py-4">01</div>
                 <div className="py-12">02</div>
                 <div className="py-8">03</div>
