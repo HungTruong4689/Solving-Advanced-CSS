@@ -1801,7 +1801,7 @@ export default function Home() {
                     </div>
                     <div className="w-3/4 overflow-x-auto ...">
                         Use whitespace-pre to preserve newlines and spaces
-                        within an element. Text will not be wrapped.
+                        within an element. Text will not be wrapped. check
                         <div className="whitespace-pre ...">
                             Hey everyone! It's almost 2022 and we still don't
                             know if there is aliens living among us, or do we?
