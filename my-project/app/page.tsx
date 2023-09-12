@@ -1799,6 +1799,9 @@ export default function Home() {
                             never know.
                         </div>
                     </div>
+                    <div className="whitespace-normal md:whitespace-pre">
+                        hover whitespace-normal
+                    </div>
                     <div className="w-3/4 overflow-x-auto ...">
                         Use whitespace-pre to preserve newlines and spaces
                         within an element. Text will not be wrapped. check
