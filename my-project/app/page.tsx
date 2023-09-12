@@ -1799,6 +1799,14 @@ export default function Home() {
                             never know.
                         </div>
                     </div>
+                    <div className="w-3/4 overflow-x-auto ...">
+                        <div className="whitespace-nowrap ...">
+                            Hey everyone! It's almost 2022 and we still don't
+                            know if there is aliens living among us, or do we?
+                            Maybe the person writing this is an alien. You will
+                            never know.
+                        </div>
+                    </div>
                     <div className="table-row">
                         <div className="table-cell ...">Shining Star</div>
                         <div className="table-cell ...">
