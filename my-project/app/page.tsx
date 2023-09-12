@@ -1800,6 +1800,14 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-3/4 overflow-x-auto ...">
+                        <div className="whitespace-pre ...">
+                            Hey everyone! It's almost 2022 and we still don't
+                            know if there is aliens living among us, or do we?
+                            Maybe the person writing this is an alien. You will
+                            never know.
+                        </div>
+                    </div>
+                    <div className="w-3/4 overflow-x-auto ...">
                         Use whitespace-nowrap to prevent text from wrapping
                         within an element. Newlines and spaces will be
                         collapsed.
