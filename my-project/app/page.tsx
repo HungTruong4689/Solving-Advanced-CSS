@@ -1789,6 +1789,9 @@ export default function Home() {
                         <div className="table-cell ...">1972</div>
                     </div>
                     <div className="w-3/4 ...">
+                        Use whitespace-normal to cause text to wrap normally
+                        within an element. Newlines and spaces will be
+                        collapsed.
                         <div className="whitespace-normal ...">
                             Hey everyone! It's almost 2022 and we still don't
                             know if there is aliens living among us, or do we?
