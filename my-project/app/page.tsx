@@ -1788,6 +1788,14 @@ export default function Home() {
                         <div className="table-cell ...">The Eagles</div>
                         <div className="table-cell ...">1972</div>
                     </div>
+                    <div className="w-3/4 ...">
+                        <div className="whitespace-normal ...">
+                            Hey everyone! It's almost 2022 and we still don't
+                            know if there is aliens living among us, or do we?
+                            Maybe the person writing this is an alien. You will
+                            never know.
+                        </div>
+                    </div>
                     <div className="table-row">
                         <div className="table-cell ...">Shining Star</div>
                         <div className="table-cell ...">
