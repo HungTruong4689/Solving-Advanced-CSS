@@ -1853,6 +1853,7 @@ export default function Home() {
             </div>
             <p className="tracking-normal ...">The quick brown fox ...</p>
             <p className="tracking-normal ...">The quick brown fox ...</p>
+            <p className="tracking-normal ...">The quick brown fox ...</p>
             <p className="tracking-wide ...">The quick brown fox ...</p>
             <article>
                 <time>Mar 10, 2020</time>
