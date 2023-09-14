@@ -1903,6 +1903,7 @@ export default function Home() {
             <p className="text-lg ...">The quick brown fox ...</p>
             <p className="text-lg ...">The quick brown fox ...</p>
             <p className="text-xl ...">The quick brown fox ...</p>
+            <p className="text-xl ...">The quick brown fox ...</p>
             <p className="text-2xl ...">The quick brown fox ...</p>
             <div className="flex flex-row">
                 <div className="basis-1/4">01</div>
