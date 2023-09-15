@@ -1928,7 +1928,7 @@ export default function Home() {
             </div>
             <div className="flex flex-row ...">
                 <div className="flex text-red-500">01</div>
-                <div>02</div>
+                <div className="flex text-red-500 flex-col">02</div>
                 <div>03</div>
             </div>
             <div className="flex flex-row-reverse ...">
