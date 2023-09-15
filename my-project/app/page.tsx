@@ -1932,6 +1932,7 @@ export default function Home() {
                 <div className="flex text-green-500">03</div>
                 <div className="flex-row-reverse text-green-500">04</div>
                 <div className="flex-col-reverse text-green-500">05</div>
+                <div className="flex flex-nowrap text-green-500">05</div>
             </div>
             <div className="flex flex-row-reverse ...">
                 <div>01</div>
