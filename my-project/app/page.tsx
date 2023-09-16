@@ -2170,7 +2170,7 @@ export default function Home() {
             <div className="divide-y divide-dashed">
                 <div className="divide-dashed">01</div>
                 <div className="line-clamp-3">02</div>
-                <div>03</div>
+                <div className="checkout">03</div>
             </div>
             <article>
                 <time>Mar 10, 2020</time>
