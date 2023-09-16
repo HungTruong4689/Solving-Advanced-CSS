@@ -2144,11 +2144,11 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 divide-y">
                 <div className="divide-y">01</div>
-                <div>02</div>
+                <div className="grid-cols-1">02</div>
                 <div>03</div>
             </div>
             <div className="flex flex-col-reverse divide-y divide-y-reverse">
-                <div>01</div>
+                <div className="flex">01</div>
                 <div>02</div>
                 <div>03</div>
             </div>
