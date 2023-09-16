@@ -2153,7 +2153,7 @@ export default function Home() {
                 <div>03</div>
             </div>
             <div className="divide-y divide-blue-200">
-                <div>01</div>
+                <div className="devide-blue-500">01</div>
                 <div>02</div>
                 <div>03</div>
             </div>
