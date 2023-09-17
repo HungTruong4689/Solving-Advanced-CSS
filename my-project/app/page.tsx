@@ -2213,6 +2213,9 @@ export default function Home() {
             <p className="leading-6 ...">
                 So I started to walk into the water...
             </p>
+            <p className="leading-6 ...">
+                So I started to walk into the water...
+            </p>
             <p className="indent-8">
                 So I started to walk into the water. I won't lie to you boys, I
                 was terrified. But I pressed on, and as I made my way past the
