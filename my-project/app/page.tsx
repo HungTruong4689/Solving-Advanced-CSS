@@ -2229,7 +2229,7 @@ export default function Home() {
             </span>
             <span className="inline-block align-top ...">Align TOp</span>
             <span className="inline-block align-middle ...">Align Middle</span>
-            <span className="inline-block align-bottom ...">...</span>
+            <span className="inline-block align-bottom ...">Align Bottom</span>
             <span className="inline-block align-text-top ...">...</span>
             <span className="inline-block align-text-bottom ...">...</span>
             <p className="break-normal ...">...</p>
