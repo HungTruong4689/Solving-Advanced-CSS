@@ -2228,7 +2228,7 @@ export default function Home() {
                 Align BaseLine
             </span>
             <span className="inline-block align-top ...">Align TOp</span>
-            <span className="inline-block align-middle ...">...</span>
+            <span className="inline-block align-middle ...">Align Middle</span>
             <span className="inline-block align-bottom ...">...</span>
             <span className="inline-block align-text-top ...">...</span>
             <span className="inline-block align-text-bottom ...">...</span>
