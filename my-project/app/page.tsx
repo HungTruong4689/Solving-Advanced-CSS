@@ -2247,6 +2247,9 @@ export default function Home() {
             <p className="hyphens-manual ...">
                 ... Kraftfahrzeug&shy;haftpflichtversicherung is a ...
             </p>
+            <p className="hyphens-manual ...">
+                ... Kraftfahrzeug&shy;haftpflichtversicherung is a ...
+            </p>
             <p className="hyphens-auto ..." lang="de">
                 ... Kraftfahrzeughaftpflichtversicherung is a ...
             </p>
