@@ -2253,7 +2253,7 @@ export default function Home() {
             <p className="hyphens-auto ..." lang="de">
                 ... Kraftfahrzeughaftpflichtversicherung is a ...
             </p>
-            <div className="rounded ..."></div>
+            <div className="rounded ...">Rounded</div>
             <div className="rounded-md ..."></div>
             <div className="rounded-lg ..."></div>
             <div className="rounded-full ..."></div>
