@@ -2254,7 +2254,7 @@ export default function Home() {
                 ... Kraftfahrzeughaftpflichtversicherung is a ...
             </p>
             <div className="rounded ...">Rounded</div>
-            <div className="rounded-md ..."></div>
+            <div className="rounded-md ...">Rounded-md</div>
             <div className="rounded-lg ..."></div>
             <div className="rounded-full ..."></div>
             <div className="bg-fixed ..."></div>
