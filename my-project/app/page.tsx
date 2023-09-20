@@ -2260,7 +2260,7 @@ export default function Home() {
             <div className="bg-fixed ...">bg-fixed</div>
             <div className="bg-local ...">bg-local</div>
             <div className="rounded-tl-lg ...">rounded-tl-lg</div>
-            <div className="rounded-tr-lg ..."></div>
+            <div className="rounded-tr-lg ...">rounded-tr-lg</div>
             <div className="rounded-br-lg ..."></div>
             <div className="rounded-bl-lg ..."></div>
             <div className="columns-2">
