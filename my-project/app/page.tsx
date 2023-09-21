@@ -2358,6 +2358,7 @@ export default function Home() {
                 <img className="object-contain h-48 w-96 ..." />
             </div>
             <div className="columns-3 ...">
+                columns-3
                 <img className="w-full aspect-video ..." src="..." />
                 <img className="w-full aspect-square ..." src="..." />
             </div>
