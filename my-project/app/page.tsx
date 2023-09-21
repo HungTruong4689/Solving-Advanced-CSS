@@ -2336,7 +2336,7 @@ export default function Home() {
             <img className="float-left ..." src="path/to/image.jpg" />
             <img className="float-right ..." src="path/to/image.jpg" />
             <p className="clear-left ...">
-                Maybe we can live without libraries...
+                Maybe we can live without libraries... clear-left
             </p>
             <p className="clear-right ...">
                 Maybe we can live without libraries...
