@@ -2383,6 +2383,7 @@ export default function Home() {
                 <img className="w-full aspect-square ..." src="..." />
             </div>
             <div className="columns-auto ...">
+                columns-auto
                 <img className="w-full aspect-video ..." src="..." />
                 <img className="w-full aspect-square ..." src="..." />
             </div>
