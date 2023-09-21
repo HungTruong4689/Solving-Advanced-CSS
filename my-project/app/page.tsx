@@ -2480,7 +2480,9 @@ export default function Home() {
                 </div>
                 So I started to walk into the water. I won't lie to...
             </div>
-            <p className="text-clip overflow-hidden ...">...</p>
+            <p className="text-clip overflow-hidden ...">
+                ... text-clip overflow-hidden
+            </p>
             <p className="underline underline-offset-1 ...">
                 The quick brown fox...
             </p>
