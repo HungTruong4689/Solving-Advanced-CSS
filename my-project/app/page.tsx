@@ -2486,7 +2486,7 @@ export default function Home() {
             <p className="underline underline-offset-1 ...">
                 underline The quick brown fox...
             </p>
-            <p className="truncate ...">...</p>
+            <p className="truncate ...">...Truncate</p>
             <p className="underline underline-offset-2 ...">
                 The quick brown fox...
             </p>
