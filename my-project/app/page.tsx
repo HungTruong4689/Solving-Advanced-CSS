@@ -2508,7 +2508,7 @@ export default function Home() {
                 So I started to walk into the water...
             </p>
             <button className="outline outline-offset-2 outline-1 ...">
-                Button A
+                Button A offset-2
             </button>
             <button className="outline outline-offset-2 outline-2 ...">
                 Button B
