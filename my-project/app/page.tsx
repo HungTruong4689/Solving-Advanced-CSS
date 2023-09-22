@@ -2569,6 +2569,7 @@ export default function Home() {
                 </li>
             </ul>
             <ul className="list-none">
+                list-none
                 <li>
                     Now this is a story all about how, my life got
                     flipped-turned upside down
