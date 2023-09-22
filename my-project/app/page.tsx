@@ -2484,7 +2484,7 @@ export default function Home() {
                 ... text-clip overflow-hidden overflow-hidden
             </p>
             <p className="underline underline-offset-1 ...">
-                underline The quick brown fox...
+                underline The quick brown fox... underline
             </p>
             <p className="truncate ...">...Truncate</p>
             <p className="underline underline-offset-2 ...">
