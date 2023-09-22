@@ -2481,7 +2481,7 @@ export default function Home() {
                 So I started to walk into the water. I won't lie to...
             </div>
             <p className="text-clip overflow-hidden ...">
-                ... text-clip overflow-hidden
+                ... text-clip overflow-hidden overflow-hidden
             </p>
             <p className="underline underline-offset-1 ...">
                 underline The quick brown fox...
