@@ -2554,6 +2554,7 @@ export default function Home() {
                 So I started to walk into the water...
             </p>
             <ul className="list-inside ...">
+                list-inside
                 <li>5 cups chopped Porcini mushrooms</li>
             </ul>
             <ul className="list-outside ...">
