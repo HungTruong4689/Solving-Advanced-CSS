@@ -2490,7 +2490,9 @@ export default function Home() {
             <p className="underline underline-offset-2 ...">
                 The quick brown fox...
             </p>
-            <p className="text-ellipsis overflow-hidden ...">...</p>
+            <p className="text-ellipsis overflow-hidden ...">
+                ... text-ellipsis
+            </p>
             <p className="underline underline-offset-4 ...">
                 The quick brown fox...
             </p>
