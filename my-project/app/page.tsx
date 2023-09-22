@@ -2562,6 +2562,7 @@ export default function Home() {
                 <li>5 cups chopped Porcini mushrooms</li>
             </ul>
             <ul className="list-disc">
+                list-disc
                 <li>
                     Now this is a story all about how, my life got
                     flipped-turned upside down
