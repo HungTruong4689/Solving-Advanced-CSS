@@ -2561,6 +2561,10 @@ export default function Home() {
                 list-outside
                 <li>5 cups chopped Porcini mushrooms</li>
             </ul>
+            <ul className="list-outside ...">
+                list-outside
+                <li>5 cups chopped Porcini mushrooms</li>
+            </ul>
             <ul className="list-disc">
                 list-disc
                 <li>
