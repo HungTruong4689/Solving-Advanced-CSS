@@ -2572,6 +2572,13 @@ export default function Home() {
                     flipped-turned upside down
                 </li>
             </ul>
+            <ul className="list-disc">
+                list-disc
+                <li>
+                    Now this is a story all about how, my life got
+                    flipped-turned upside down
+                </li>
+            </ul>
             <ul className="list-none">
                 list-none
                 <li>
