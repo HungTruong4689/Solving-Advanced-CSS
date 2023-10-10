@@ -2664,6 +2664,7 @@ export default function Home() {
             <p className="tracking-tight ...">The quick brown fox ...</p>
             <p className="tracking-tight ...">The quick brown fox ...</p>
             <p className="stacked-fractions ...">1/2 3/4 5/6</p>
+            <p className="stacked-fractions ...">1/2 3/4 5/6</p>
             <p className="diagonal-fractions ...">1/2 3/4 5/6</p>
             <p className="proportional-nums ...">12121</p>
             <p className="proportional-nums ...">90909</p>
