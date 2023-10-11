@@ -2690,6 +2690,9 @@ export default function Home() {
             <p className="leading-normal ...">
                 So I started to walk into the water...
             </p>
+            <p className="leading-normal ...">
+                So I started to walk into the water...
+            </p>
             <div className="grid grid-cols-3 gap-4 ...">
                 <div>01</div>
                 <div className="place-self-start ...">02</div>
