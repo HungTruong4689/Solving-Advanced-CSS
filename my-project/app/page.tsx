@@ -2716,6 +2716,12 @@ export default function Home() {
                     <p>Absolute child</p>
                 </div>
             </div>
+            <div className="static ...">
+                <p>Static parent</p>
+                <div className="absolute bottom-0 left-0 ...">
+                    <p>Absolute child</p>
+                </div>
+            </div>
             <p className="leading-6 ...">
                 So I started to walk into the water...
             </p>
