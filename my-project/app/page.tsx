@@ -2814,7 +2814,7 @@ export default function Home() {
                 </li>
             </ul>
             <ol className="list-decimal">
-                <li>
+                <li className="list-decimal">
                     Now this is a story all about how, my life got
                     flipped-turned upside down
                 </li>
