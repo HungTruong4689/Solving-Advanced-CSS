@@ -2820,7 +2820,7 @@ export default function Home() {
                 </li>
             </ol>
             <ul className="list-none">
-                <li>
+                <li className="list-none">
                     Now this is a story all about how, my life got
                     flipped-turned upside down
                 </li>
