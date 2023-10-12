@@ -2808,7 +2808,7 @@ export default function Home() {
                 <div className="absolute inset-x-0 top-0 h-16 ...">02</div>
             </div>
             <ul className="list-disc">
-                <li>
+                <li className="list-disc">
                     Now this is a story all about how, my life got
                     flipped-turned upside down
                 </li>
