@@ -2612,6 +2612,7 @@ export default function Home() {
                 So I started to walk into the water...
             </p>
             <div className="bg-fixed ..."></div>
+            <div className="bg-fixed ..."></div>
             <div className="bg-local ..."></div>
             <div className="bg-scroll ..."></div>
             <div className="bg-clip-padding p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
