@@ -2968,6 +2968,9 @@ export default function Home() {
             <div className="bg-sky-300 ...">
                 <img className="object-fill h-48 w-96 ..." />
             </div>
+            <div className="bg-sky-300 ...">
+                <img className="object-fill h-48 w-96 ..." />
+            </div>
             <img
                 className="object-none object-left-top bg-yellow-300 w-24 h-24 ..."
                 src="..."
