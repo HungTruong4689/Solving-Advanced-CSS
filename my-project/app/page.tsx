@@ -2962,6 +2962,9 @@ export default function Home() {
             <div className="bg-purple-300 ...">
                 <img className="object-contain h-48 w-96 ..." />
             </div>
+            <div className="bg-purple-300 ...">
+                <img className="object-contain h-48 w-96 ..." />
+            </div>
             <div className="bg-sky-300 ...">
                 <img className="object-fill h-48 w-96 ..." />
             </div>
