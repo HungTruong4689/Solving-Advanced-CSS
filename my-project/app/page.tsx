@@ -2614,6 +2614,7 @@ export default function Home() {
             <div className="bg-fixed ..."></div>
             <div className="bg-fixed ..."></div>
             <div className="bg-local ..."></div>
+            <div className="bg-local ..."></div>
             <div className="bg-scroll ..."></div>
             <div className="bg-clip-padding p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
             <div className="bg-clip-border p-6 bg-violet-600 border-4 border-violet-300 border-dashed"></div>
