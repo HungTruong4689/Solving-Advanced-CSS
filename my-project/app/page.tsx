@@ -2993,6 +2993,9 @@ export default function Home() {
             <div className="bg-cyan-300">
                 <img className="object-scale-down h-48 w-96 ..." />
             </div>
+            <div className="bg-cyan-300">
+                <img className="object-scale-down h-48 w-96 ..." />
+            </div>
             <p>
                 Maybe we can live without libraries, people like you and me. ...
             </p>
