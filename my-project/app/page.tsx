@@ -2767,6 +2767,9 @@ export default function Home() {
                 <div className="absolute ...">
                     <p>Absolute child</p>
                 </div>
+                <div className="absolute ...">
+                    <p>Absolute child</p>
+                </div>
                 <div className="inline-block ...">
                     <p>Static sibling</p>
                 </div>
