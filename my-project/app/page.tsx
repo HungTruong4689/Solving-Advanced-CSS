@@ -2815,6 +2815,7 @@ export default function Home() {
                 </div>
                 <div>
                     <div className="sticky top-0">B</div>
+                    <div className="sticky top-0">B</div>
                     <div>
                         <div>
                             <img src="..." />
