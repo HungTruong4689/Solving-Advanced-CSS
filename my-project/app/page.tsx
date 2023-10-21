@@ -2875,6 +2875,9 @@ export default function Home() {
             <p className="text-right ...">
                 So I started to walk into the water...
             </p>
+            <p className="text-right ...">
+                So I started to walk into the water...
+            </p>
             <p className="text-justify ...">
                 So I started to walk into the water...
             </p>
