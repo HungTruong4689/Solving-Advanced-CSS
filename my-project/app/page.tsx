@@ -2753,6 +2753,9 @@ export default function Home() {
             <p className="leading-8 ...">
                 So I started to walk into the water...
             </p>
+            <p className="leading-8 ...">
+                So I started to walk into the water...
+            </p>
             <p className="text-lg leading-loose md:text-xl md:leading-loose">
                 Maybe we can live without libraries...
             </p>
