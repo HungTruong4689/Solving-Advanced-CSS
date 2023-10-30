@@ -2799,6 +2799,9 @@ export default function Home() {
             <ul className="list-inside ...">
                 <li>5 cups chopped Porcini mushrooms</li>
             </ul>
+            <ul className="list-inside ...">
+                <li>5 cups chopped Porcini mushrooms</li>
+            </ul>
             <div>
                 <div>
                     <div className="sticky top-0 ...">A</div>
