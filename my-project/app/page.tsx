@@ -2394,6 +2394,10 @@ export default function Home() {
                 <img className="w-full aspect-video ..." src="..." />
                 <img className="w-full aspect-square ..." src="..." />
             </div>
+            <div className="columns-4 ...">
+                <img className="w-full aspect-video ..." src="..." />
+                <img className="w-full aspect-square ..." src="..." />
+            </div>
             <div className="columns-5 ...">
                 <img className="w-full aspect-video ..." src="..." />
                 <img className="w-full aspect-square ..." src="..." />
