@@ -2377,6 +2377,15 @@ export default function Home() {
                 <img className="w-full aspect-video ..." src="..." />
                 <img className="w-full aspect-square ..." src="..." />
             </div>
+            <div className="columns-2 ...">
+                <img className="w-full aspect-video ..." src="..." />
+                <img className="w-full aspect-square ..." src="..." />
+            </div>
+            <div className="columns-2 ...">
+                Print image
+                <img className="w-full aspect-video ..." src="..." />
+                <img className="w-full aspect-square ..." src="..." />
+            </div>
             <div className="columns-1 ...">
                 <img className="w-full aspect-video ..." src="..." />
                 <img className="w-full aspect-square ..." src="..." />
