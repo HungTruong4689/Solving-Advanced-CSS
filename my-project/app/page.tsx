@@ -2322,6 +2322,9 @@ export default function Home() {
             <div className="box-content h-32 w-32 p-4 border-4 ...">
                 BOX CONTENT
             </div>
+            <div className="box-content h-32 w-32 p-4 border-4 ...">
+                BOX CONTENT
+            </div>
             <div>
                 When controlling the flow of text, using the CSS property
                 <span className="inline">display: inline</span>
