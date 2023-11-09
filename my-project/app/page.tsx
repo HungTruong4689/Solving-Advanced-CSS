@@ -2265,6 +2265,7 @@ export default function Home() {
             <div className="rounded-tr-lg ...">rounded-tr-lg</div>
             <div className="rounded-br-lg ...">rounded-br-lg</div>
             <div className="rounded-bl-lg ...">rounded-bl-lg</div>
+            <div className="rounded-bl-lg ...">rounded-bl-lg</div>
             <div className="columns-2">
                 <p>Well, let me tell you something, ...</p>
                 <p className="break-after-column">Sure, go ahead, laugh...</p>
