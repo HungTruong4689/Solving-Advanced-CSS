@@ -2379,6 +2379,9 @@ export default function Home() {
             <p className="clear-both ...">
                 Maybe we can live without libraries... clear-both
             </p>
+            <p className="clear-both ...">
+                Maybe we can live without libraries... clear-both
+            </p>
             <p className="clear-none ...">
                 Maybe we can live without libraries...clear-none
             </p>
