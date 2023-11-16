@@ -56,3 +56,21 @@ function main() {
 
     ws.end();
 }
+
+
+//SOLVED
+function minimumAbsoluteDifference(arr) {
+  // Sort the array in ascending order
+  arr.sort((a, b) => a - b);
+
+  // Initialize the minimum absolute difference with the maximum possible value
+  let minAbsoluteDifference = Number.MAX_SAFE_INTEGER;
+
+  // Iterate through the sorted array and find the minimum absolute difference
+  for (let i = 0; i < arr.length - 1; i++) {
+    const absoluteDifference = Math.abs(arr[i + 1] - arr[i]);
+    minAbsoluteDifference = Math.min(minAbsoluteDifference, absoluteDifference);
+  }
+
+  return minAbsoluteDifference;
+}
